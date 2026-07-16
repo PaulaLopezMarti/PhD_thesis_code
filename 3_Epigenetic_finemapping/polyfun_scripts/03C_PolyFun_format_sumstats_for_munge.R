@@ -201,5 +201,9 @@ for(chr in chr_list){
   
 }
 
+# Save output
 print(paste0("Saving results at... ", paste0(outputdir, trait, '_polyFUNformattedClean.tsv')))
 data.table::fwrite(result.all, file=paste0(outputdir, trait, '_polyFUNformattedClean.tsv'), sep='\t')
+
+# Things to fix for final pipeline:
+# It is quite redundant with 03A: take advantage of what it is done in that script so we avoid repeating the same analysis twice
