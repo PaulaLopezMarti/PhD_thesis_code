@@ -1,0 +1,129 @@
+ensg	gene_name	biotype	prior.traits	category
+ENSG00000008952	SEC62	protein_coding	MM; CLL	pleiotropic
+ENSG00000021355	SERPINB1	protein_coding	BALL; CLL; B-ALL 2	independent
+ENSG00000036549	ZZZ3	protein_coding	MM; CLL	pleiotropic
+ENSG00000063176	SPHK2	protein_coding	CLL; DLBCL	pleiotropic
+ENSG00000063177	RPL18	protein_coding	CLL; DLBCL	pleiotropic
+ENSG00000064489	BORCS8-MEF2B	protein_coding	MM; FL	pleiotropic
+ENSG00000070985	TRPM5	protein_coding	CLL; LYM	independent
+ENSG00000079263	SP140	protein_coding	MM; CLL	pleiotropic
+ENSG00000085274	MYNN	protein_coding	MM; CLL	pleiotropic
+ENSG00000089006	SNX5	protein_coding	BALL; CLL; pB-ALL	independent
+ENSG00000095015	MAP3K1	protein_coding	BALL; MM; CLL; pB-ALL ER	independent
+ENSG00000099810	MTAP	protein_coding	BALL; MM; CLL; pB-ALL; pB-ALL ER; pB-ALL HD	independent_pleio
+ENSG00000101213	PTK6	protein_coding	MM; FL	independent
+ENSG00000104081	BMF	protein_coding	CLL; LYM	independent
+ENSG00000104517	UBR5	protein_coding	MM; CLL	independent
+ENSG00000105467	SYNGR4	protein_coding	CLL; DLBCL	pleiotropic
+ENSG00000105479	ODAD1	protein_coding	CLL; DLBCL	pleiotropic
+ENSG00000105705	SUGP1	protein_coding	MM; FL	pleiotropic
+ENSG00000107036	RIC1	protein_coding	BALL; LYM; pB-ALL	independent
+ENSG00000107485	GATA3	protein_coding	BALL; HL; pB-ALL; B-ALL 2	independent
+ENSG00000107902	LHPP	protein_coding	BALL; MM; pB-ALL; pB-ALL HD	independent
+ENSG00000109320	NFKB1	protein_coding	MM; LYM	pleiotropic
+ENSG00000110628	SLC22A18	protein_coding	CLL; LYM	independent
+ENSG00000112561	TFEB	protein_coding	MM; CLL	independent
+ENSG00000112679	DUSP22	protein_coding	MM; CLL; DLBCL	independent_pleio
+ENSG00000113916	BCL6	protein_coding	CLL; LYM; FL	independent
+ENSG00000118513	MYB	protein_coding	BALL; MM; pB-ALL; pB-ALL HD	pleiotropic
+ENSG00000124535	WRNIP1	protein_coding	BALL; CLL; B-ALL 2	independent
+ENSG00000124570	SERPINB6	protein_coding	BALL; CLL; B-ALL 2	independent
+ENSG00000125508	SRMS	protein_coding	BALL; MM; pB-ALL ER	independent
+ENSG00000125520	SLC2A4RG	protein_coding	BALL; MM; pB-ALL ER	independent
+ENSG00000125531	FNDC11	protein_coding	BALL; MM; pB-ALL ER	independent
+ENSG00000125844	RRBP1	protein_coding	BALL; CLL; pB-ALL	independent
+ENSG00000125846	ZNF133	protein_coding	BALL; CLL; pB-ALL	independent
+ENSG00000125871	MGME1	protein_coding	BALL; CLL; pB-ALL	independent
+ENSG00000127528	KLF2	protein_coding	MM; CLL	independent
+ENSG00000129933	MAU2	protein_coding	MM; FL	pleiotropic
+ENSG00000134954	ETS1	protein_coding	BALL; FL; pB-ALL ER	independent
+ENSG00000135899	SP110	protein_coding	MM; CLL	pleiotropic
+ENSG00000136205	TNS3	protein_coding	BALL; MM; pB-ALL HD	independent
+ENSG00000136603	SKIL	protein_coding	MM; CLL	pleiotropic
+ENSG00000136997	MYC	protein_coding	BALL; MM; CLL; LYM; FL; HL; DLBCL; pB-ALL	independent_pleio
+ENSG00000137265	IRF4	protein_coding	MM; CLL; DLBCL	independent_pleio
+ENSG00000137841	PLCB2	protein_coding	CLL; LYM	independent
+ENSG00000137843	PAK6	protein_coding	CLL; LYM	independent
+ENSG00000140319	SRP14	protein_coding	CLL; LYM	independent
+ENSG00000142227	EMP3	protein_coding	CLL; DLBCL	pleiotropic
+ENSG00000145088	EAF2	protein_coding	FL; DLBCL	pleiotropic
+ENSG00000145949	MYLK4	protein_coding	BALL; CLL; B-ALL 2	independent
+ENSG00000147883	CDKN2B	protein_coding	BALL; MM; CLL; pB-ALL; pB-ALL ER; pB-ALL HD	independent_pleio
+ENSG00000147889	CDKN2A	protein_coding	BALL; MM; CLL; pB-ALL; pB-ALL ER; pB-ALL HD	independent_pleio
+ENSG00000151327	FAM177A1	protein_coding	BALL; MM; pB-ALL ER	independent
+ENSG00000153094	BCL2L11	protein_coding	FL; MZL	independent
+ENSG00000155313	USP25	protein_coding	MM; MZL	independent
+ENSG00000155542	SETD9	protein_coding	BALL; MM; pB-ALL ER	independent
+ENSG00000156970	BUB1B	protein_coding	CLL; LYM	independent
+ENSG00000160683	CXCR5	protein_coding	LYM; FL	pleiotropic
+ENSG00000161558	TMEM143	protein_coding	CLL; DLBCL	pleiotropic
+ENSG00000163491	NEK10	protein_coding	CLL; LYM	pleiotropic
+ENSG00000163512	AZI2	protein_coding	CLL; LYM; DLBCL	pleiotropic
+ENSG00000164037	SLC9B1	protein_coding	MM; LYM	pleiotropic
+ENSG00000164038	SLC9B2	protein_coding	MM; LYM	pleiotropic
+ENSG00000165660	ABRAXAS2	protein_coding	BALL; MM; pB-ALL; pB-ALL HD	independent
+ENSG00000171791	BCL2	protein_coding	BALL; CLL; FL; pB-ALL ER; pB-ALL HD	independent_pleio
+ENSG00000172456	FGGY	protein_coding	BALL; DLBCL; pB-ALL ER	independent
+ENSG00000173226	IQCB1	protein_coding	FL; DLBCL	pleiotropic
+ENSG00000173890	GPR160	protein_coding	MM; CLL	pleiotropic
+ENSG00000176124	DLEU1	lncRNA	MM; CLL	independent
+ENSG00000177606	JUN	protein_coding	BALL; DLBCL; pB-ALL ER	independent
+ENSG00000181035	SLC25A42	protein_coding	MM; FL	pleiotropic
+ENSG00000184378	ACTRT3	protein_coding	MM; CLL	pleiotropic
+ENSG00000187118	CMC1	protein_coding	CLL; LYM; FL; DLBCL	pleiotropic
+ENSG00000189319	FAM53B	protein_coding	BALL; MM; pB-ALL; pB-ALL HD	independent
+ENSG00000197114	ZGPAT	protein_coding	BALL; MM; pB-ALL ER	independent
+ENSG00000197308	GATA3-AS1	lncRNA	BALL; HL; pB-ALL; B-ALL 2	independent
+ENSG00000197971	MBP	protein_coding	BALL; DLBCL; pB-ALL ER	independent
+ENSG00000198553	KCNRG	protein_coding	MM; CLL	independent
+ENSG00000198642	KLHL9	protein_coding	MM; CLL	independent_pleio
+ENSG00000203896	LIME1	protein_coding	BALL; MM; pB-ALL ER	independent
+ENSG00000205653	ENSG00000205653	lncRNA	MM; CLL	pleiotropic
+ENSG00000206559	ZCWPW2	protein_coding	CLL; LYM; DLBCL	pleiotropic
+ENSG00000213999	MEF2B	protein_coding	MM; FL	pleiotropic
+ENSG00000224374	ENSG00000224374	lncRNA	BALL; MM; pB-ALL HD	pleiotropic
+ENSG00000224854	CDKN2A-DT	lncRNA	BALL; MM; CLL; pB-ALL; pB-ALL HD	independent_pleio
+ENSG00000225230	ENSG00000225230	lncRNA	BALL; MM; pB-ALL ER	independent
+ENSG00000230433	ENSG00000230433	lncRNA	MM; CLL	pleiotropic
+ENSG00000230778	ANKRD63	protein_coding	CLL; LYM	independent
+ENSG00000231607	DLEU2	lncRNA	MM; CLL	independent
+ENSG00000232638	ENSG00000232638	lncRNA	BALL; HL; pB-ALL; B-ALL 2	independent
+ENSG00000233339	ENSG00000233339	lncRNA	BALL; MZL; pB-ALL HD	independent
+ENSG00000234807	LINC01135	lncRNA	BALL; DLBCL; pB-ALL ER	independent
+ENSG00000239219	ENSG00000239219	lncRNA	MM; CLL	pleiotropic
+ENSG00000240373	SEC62-AS1	lncRNA	MM; CLL	pleiotropic
+ENSG00000240498	CDKN2B-AS1	lncRNA	BALL; MM; CLL; pB-ALL; pB-ALL ER; pB-ALL HD	independent_pleio
+ENSG00000245869	ENSG00000245869	lncRNA	LYM; FL	pleiotropic
+ENSG00000248508	SRP14-AS1	lncRNA	CLL; LYM	independent
+ENSG00000249375	CASC11	lncRNA	BALL; MM; CLL; LYM; FL; HL; DLBCL; pB-ALL	independent_pleio
+ENSG00000249859	PVT1	lncRNA	LYM; FL; HL; DLBCL	independent_pleio
+ENSG00000253633	ENSG00000253633	lncRNA	MM; CLL	independent
+ENSG00000254166	CASC19	lncRNA	MM; CLL	independent
+ENSG00000254588	ETS1-AS1	lncRNA	BALL; FL; pB-ALL ER	independent
+ENSG00000254901	BORCS8	protein_coding	MM; FL	pleiotropic
+ENSG00000259198	ENSG00000259198	lncRNA	CLL; LYM	independent
+ENSG00000264545	ENSG00000264545	protein_coding	BALL; MM; CLL; pB-ALL; pB-ALL ER; pB-ALL HD	independent_pleio
+ENSG00000266446	ENSG00000266446	lncRNA	BALL; MM; CLL; pB-ALL; pB-ALL ER; pB-ALL HD	independent_pleio
+ENSG00000267275	KLF2-DT	lncRNA	MM; CLL	independent
+ENSG00000269889	ENSG00000269889	lncRNA	MM; CLL	pleiotropic
+ENSG00000273047	ENSG00000273047	protein_coding	BALL; MM; pB-ALL ER	independent
+ENSG00000273154	ENSG00000273154	protein_coding	BALL; MM; pB-ALL ER	independent
+ENSG00000273855	ENSG00000273855	lncRNA	CLL; LYM	independent
+ENSG00000274501	ENSG00000274501	lncRNA	BALL; MM; pB-ALL ER	independent
+ENSG00000275812	ENSG00000275812	lncRNA	BALL; MM; pB-ALL ER	independent
+ENSG00000283563	ENSG00000283563	protein_coding	CLL; LYM; DLBCL	pleiotropic
+ENSG00000283710	MIR1204	miRNA	LYM; FL; HL; DLBCL	independent_pleio
+ENSG00000284194	SCO2	protein_coding	MM; CLL	pleiotropic
+ENSG00000285938	ENSG00000285938	protein_coding	CLL; LYM; FL	independent
+ENSG00000286162	ENSG00000286162	lncRNA	BALL; LYM; pB-ALL	independent
+ENSG00000287265	ENSG00000287265	lncRNA	MM; CLL; DLBCL	independent_pleio
+ENSG00000287348	ENSG00000287348	lncRNA	CLL; LYM	pleiotropic
+ENSG00000064652	SNX24	protein_coding	MM; MZL	none
+ENSG00000072958	AP1M1	protein_coding	BALL; MM; pB-ALL ER	none
+ENSG00000105058	FAM32A	protein_coding	BALL; MM; pB-ALL ER	none
+ENSG00000140332	TLE3	protein_coding	CLL; FL	none
+ENSG00000141977	CIB3	protein_coding	BALL; MM; pB-ALL ER	none
+ENSG00000205302	SNX2	protein_coding	MM; MZL	none
+ENSG00000248727	LINC01948	lncRNA	BALL; CLL; pB-ALL ER	none
+ENSG00000267033	ENSG00000267033	lncRNA	BALL; MM; pB-ALL ER	none
+ENSG00000287961	ENSG00000287961	lncRNA	BALL; MM; pB-ALL ER	none

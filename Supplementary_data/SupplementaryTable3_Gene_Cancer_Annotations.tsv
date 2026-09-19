@@ -1,0 +1,841 @@
+ENSEMBL ID	Gene name	Cancer gene confidence	OncoEnrichR category	Driver Gene (method of action)	OncoScore	Dataset	COGS score
+ENSG00000002587	HS3ST1	medium_confidence	not_relevant	non-driver	35.15	CLL	0.51
+ENSG00000002726	AOC1	low_confidence	not_relevant	non-driver	23.41	pB-ALL HD	0.89
+ENSG00000003393	ALS2	not_classified	not_relevant	non-driver	5.16	CLL	0.66
+ENSG00000003400	CASP10	medium_confidence	cancer_gene	non-driver	46.19	CLL	0.96
+ENSG00000003402	CFLAR	high_confidence	cancer_gene	non-driver	67.47	CLL	0.71
+ENSG00000004059	ARF5	not_classified	not_relevant	non-driver	12.21	pB-ALL ER	0.56
+ENSG00000006047	YBX2	not_classified	not_relevant	non-driver	15.9	MM	0.72
+ENSG00000006459	KDM7A	medium_confidence	not_relevant	non-driver	44.77	B-ALL 2	0.63
+ENSG00000006555	TTC22	high_confidence	cancer_gene	non-driver	58.33	pB-ALL 2	0.57
+ENSG00000006607	FARP2	medium_confidence	cancer_gene	non-driver	24.42	CLL	0.94
+ENSG00000007372	PAX6	medium_confidence	cancer_gene	non-driver	15.79	pB-ALL 2; pB-ALL ER	
+ENSG00000008513	ST3GAL1	high_confidence	cancer_gene	non-driver	53.09	CLL	0.59
+ENSG00000008735	MAPK8IP2	medium_confidence	not_relevant	unknown	37.85	CLL	0.85
+ENSG00000008838	MED24	medium_confidence	not_relevant	non-driver	35.82	pB-ALL ER	0.74
+ENSG00000008952	SEC62	low_confidence	not_relevant	non-driver	24.15	CLL; MM	
+ENSG00000009307	CSDE1	medium_confidence	cancer_gene	non-driver	48.57	pB-ALL 2	0.62
+ENSG00000009413	REV3L	medium_confidence	not_relevant	non-driver	52.59	pB-ALL	0.53
+ENSG00000010295	IFFO1	medium_confidence	not_relevant	non-driver	64.39	CLL	0.6
+ENSG00000010818	HIVEP2	low_confidence	not_relevant	non-driver	33.13	B-ALL 2	0.81
+ENSG00000011566	MAP4K3	medium_confidence	not_relevant	non-driver	42.07	pB-ALL	0.76
+ENSG00000012124	CD22	high_confidence	bloodcancer_gene	non-driver	64.03	CLL	0.71
+ENSG00000012983	MAP4K5	medium_confidence	not_relevant	unknown	39.6	HL	0.92
+ENSG00000013441	CLK1	low_confidence	not_relevant	non-driver	30.73	CLL	0.83
+ENSG00000021355	SERPINB1	not_classified	not_relevant	non-driver	19.73	B-ALL 2; CLL	
+ENSG00000023171	GRAMD1B	medium_confidence	not_relevant	non-driver	36.09	CLL	1
+ENSG00000024048	UBR2	low_confidence	not_relevant	non-driver	33.81	MM	0.9
+ENSG00000024422	EHD2	high_confidence	cancer_gene	ambiguous	32.89	pB-ALL HD	0.8
+ENSG00000025708	TYMP	medium_confidence	cancer_gene	non-driver	35.92	CLL	0.92
+ENSG00000025770	NCAPH2	medium_confidence	cancer_gene	non-driver	37.16	CLL	0.85
+ENSG00000026751	SLAMF7	high_confidence	bloodcancer_gene	non-driver	65.46	DLBCL	0.55
+ENSG00000027075	PRKCH	medium_confidence	cancer_gene	non-driver	29.45	MZL	0.65
+ENSG00000033627	ATP6V0A1	medium_confidence	cancer_gene	non-driver	30.13	MM	0.75
+ENSG00000034713	GABARAPL2	low_confidence	not_relevant	non-driver	34.57	pB-ALL 2	0.6
+ENSG00000036549	ZZZ3	medium_confidence	cancer_gene	non-driver	44.27	CLL; MM	
+ENSG00000039523	RIPOR1	medium_confidence	not_relevant	non-driver	51.1	pB-ALL	0.61
+ENSG00000041988	THAP3	medium_confidence	not_relevant	non-driver	56.93	pB-ALL ER	0.56
+ENSG00000042813	ZPBP	not_classified	not_relevant	non-driver	12.15	B-ALL 2; pB-ALL 2; pB-ALL; pB-ALL ER; pB-ALL HD	
+ENSG00000047188	YTHDC2	medium_confidence	cancer_gene	non-driver	45.1	LYM	0.69
+ENSG00000048545	GUCA1A	not_classified	not_relevant	non-driver	2.64	MM	0.91
+ENSG00000049759	NEDD4L	medium_confidence	cancer_gene	non-driver	30.54	FL	0.64
+ENSG00000050344	NFE2L3	high_confidence	cancer_gene	non-driver	54.81	pB-ALL 2	0.71
+ENSG00000053254	FOXN3	medium_confidence	not_relevant	non-driver	56.3	MM	0.57
+ENSG00000053918	KCNQ1	medium_confidence	cancer_gene	non-driver	9.66	CLL	0.8
+ENSG00000054267	ARID4B	medium_confidence	not_relevant	non-driver	53.39	MM	0.57
+ENSG00000055044	NOP58	medium_confidence	not_relevant	non-driver	35.8	CLL	0.66
+ENSG00000056972	TRAF3IP2	medium_confidence	not_relevant	non-driver	47.03	pB-ALL; pB-ALL ER	
+ENSG00000057657	PRDM1	high_confidence	bloodcancer_gene	LoF	43.28	MM	1
+ENSG00000058056	USP13	high_confidence	cancer_gene	non-driver	50.42	pB-ALL ER	0.84
+ENSG00000059588	TARBP1	low_confidence	not_relevant	non-driver	32.48	HL	0.94
+ENSG00000059758	CDK17	medium_confidence	not_relevant	non-driver	47.4	pB-ALL	1
+ENSG00000060339	CCAR1	high_confidence	cancer_gene	non-driver	67.11	DLBCL	0.85
+ENSG00000062650	WAPL	medium_confidence	not_relevant	non-driver	35.67	pB-ALL	0.55
+ENSG00000063169	BICRA	low_confidence	not_relevant	non-driver	33.94	pB-ALL HD	0.6
+ENSG00000063176	SPHK2	medium_confidence	cancer_gene	non-driver	44.81	CLL; DLBCL	
+ENSG00000063177	RPL18	not_classified	not_relevant	non-driver	20.85	CLL; DLBCL	
+ENSG00000063244	U2AF2	high_confidence	cancer_gene	Act	31.9	LYM	0.81
+ENSG00000063245	EPN1	low_confidence	not_relevant	non-driver	22.63	LYM	0.78
+ENSG00000064012	CASP8	high_confidence	bloodcancer_gene	LoF	62.86	CLL	0.93
+ENSG00000064201	TSPAN32	medium_confidence	not_relevant	non-driver	52.34	CLL	0.83
+ENSG00000064489	BORCS8-MEF2B	not_classified	not_relevant	unknown	0	FL; MM	
+ENSG00000064490	RFXANK	not_classified	not_relevant	non-driver	20.84	FL	0.54
+ENSG00000064652	SNX24	not_classified	not_relevant	non-driver	20.44	MM; MZL	
+ENSG00000065613	SLK	low_confidence	not_relevant	non-driver	31.23	MM	1
+ENSG00000065618	COL17A1	low_confidence	not_relevant	non-driver	28.4	MM	0.99
+ENSG00000065621	GSTO2	low_confidence	not_relevant	non-driver	30.37	MM	1
+ENSG00000066827	ZFAT	not_classified	not_relevant	non-driver	18.5	CLL	0.65
+ENSG00000067066	SP100	medium_confidence	not_relevant	non-driver	41.26	CLL	0.54
+ENSG00000067182	TNFRSF1A	high_confidence	cancer_gene	non-driver	79.23	CLL	0.59
+ENSG00000067221	STOML1	low_confidence	not_relevant	non-driver	25.11	MM	0.72
+ENSG00000070182	SPTB	not_classified	not_relevant	non-driver	5.74	FL	0.68
+ENSG00000070985	TRPM5	not_classified	not_relevant	non-driver	10.14	CLL; LYM	
+ENSG00000071051	NCK2	low_confidence	not_relevant	non-driver	26.83	pB-ALL HD	0.64
+ENSG00000071564	TCF3	high_confidence	bloodcancer_gene	ambiguous	55.84	HL	1
+ENSG00000072135	PTPN18	high_confidence	cancer_gene	non-driver	53.56	pB-ALL 2	0.89
+ENSG00000072163	LIMS2	low_confidence	not_relevant	non-driver	28.51	pB-ALL HD	0.52
+ENSG00000072274	TFRC	high_confidence	bloodcancer_gene	non-driver	35.41	MM	0.63
+ENSG00000072310	SREBF1	low_confidence	not_relevant	non-driver	23.25	pB-ALL ER	0.56
+ENSG00000072818	ACAP1	medium_confidence	not_relevant	non-driver	41.54	MM	0.74
+ENSG00000072958	AP1M1	low_confidence	not_relevant	non-driver	25	MM; pB-ALL ER	
+ENSG00000073331	ALPK1	medium_confidence	cancer_gene	non-driver	32.33	FL	0.72
+ENSG00000073605	GSDMB	high_confidence	cancer_gene	non-driver	55.92	MM	0.88
+ENSG00000074266	EED	high_confidence	bloodcancer_gene	non-driver	27.08	B-ALL 2	0.62
+ENSG00000074706	IPCEF1	high_confidence	cancer_gene	non-driver	50.8	CLL	0.92
+ENSG00000077157	PPP1R12B	low_confidence	not_relevant	non-driver	33.42	CLL	0.52
+ENSG00000077254	USP33	high_confidence	cancer_gene	non-driver	53.01	CLL	0.89
+ENSG00000079263	SP140	high_confidence	cancer_gene	ambiguous	64.01	CLL; MM	
+ENSG00000079313	REXO1	not_classified	not_relevant	non-driver	19.39	HL	1
+ENSG00000080603	SRCAP	low_confidence	not_relevant	non-driver	29.84	MM	0.85
+ENSG00000081377	CDC14B	medium_confidence	not_relevant	non-driver	47.58	pB-ALL	0.57
+ENSG00000081913	PHLPP1	medium_confidence	cancer_gene	non-driver	49.26	pB-ALL ER	0.56
+ENSG00000082014	SMARCD3	medium_confidence	not_relevant	non-driver	35.86	MM	0.94
+ENSG00000082146	STRADB	not_classified	not_relevant	non-driver	18.39	CLL	0.79
+ENSG00000082153	BZW1	medium_confidence	not_relevant	non-driver	57.51	CLL	0.84
+ENSG00000083312	TNPO1	low_confidence	not_relevant	non-driver	24.12	pB-ALL	0.6
+ENSG00000085274	MYNN	medium_confidence	cancer_gene	non-driver	25.75	CLL; MM	
+ENSG00000087301	TXNDC16	medium_confidence	not_relevant	non-driver	36.91	B-ALL 2	0.74
+ENSG00000087303	NID2	medium_confidence	not_relevant	non-driver	38.17	B-ALL 2	0.66
+ENSG00000087460	GNAS	high_confidence	cancer_gene	Act	47.78	CLL	0.82
+ENSG00000088367	EPB41L1	not_classified	not_relevant	non-driver	13.72	MM	0.84
+ENSG00000089006	SNX5	low_confidence	not_relevant	non-driver	25.16	CLL; pB-ALL	
+ENSG00000089101	CFAP61	not_classified	not_relevant	non-driver	13.33	CLL	0.78
+ENSG00000089356	FXYD3	high_confidence	cancer_gene	non-driver	76.98	CLL	0.72
+ENSG00000089558	KCNH4	low_confidence	not_relevant	non-driver	33.1	MM	0.61
+ENSG00000089902	RCOR1	medium_confidence	not_relevant	non-driver	43.01	MM	0.63
+ENSG00000090238	YPEL3	medium_confidence	not_relevant	non-driver	58.21	MM	0.6
+ENSG00000090263	MRPS33	not_classified	not_relevant	non-driver	12.93	B-ALL 2	0.62
+ENSG00000090266	NDUFB2	medium_confidence	cancer_gene	non-driver	29.56	B-ALL 2	0.62
+ENSG00000090432	MUL1	medium_confidence	cancer_gene	non-driver	17.66	CLL	0.68
+ENSG00000090512	FETUB	low_confidence	not_relevant	non-driver	22.8	MZL	0.91
+ENSG00000090520	DNAJB11	medium_confidence	not_relevant	non-driver	37.61	MZL	0.92
+ENSG00000090863	GLG1	low_confidence	not_relevant	non-driver	32.3	MM	0.55
+ENSG00000091831	ESR1	high_confidence	cancer_gene	ambiguous	55.69	CLL	0.91
+ENSG00000091879	ANGPT2	medium_confidence	cancer_gene	non-driver	36.7	FL	0.53
+ENSG00000092067	CEBPE	medium_confidence	not_relevant	non-driver	60.23	pB-ALL; pB-ALL HD	
+ENSG00000092068	SLC7A8	low_confidence	not_relevant	non-driver	29.7	pB-ALL; pB-ALL HD	
+ENSG00000095015	MAP3K1	high_confidence	cancer_gene	ambiguous	52.39	CLL; MM; pB-ALL ER	
+ENSG00000095787	WAC	not_classified	not_relevant	non-driver	16.69	MM	0.83
+ENSG00000095932	SMIM24	medium_confidence	not_relevant	non-driver	41.94	MM	0.98
+ENSG00000096088	PGC	not_classified	not_relevant	non-driver	17.61	MM	0.89
+ENSG00000096968	JAK2	high_confidence	bloodcancer_gene	ambiguous	56.62	pB-ALL	0.76
+ENSG00000099219	ERMP1	medium_confidence	not_relevant	non-driver	54.5	pB-ALL	0.75
+ENSG00000099364	FBXL19	medium_confidence	not_relevant	non-driver	43.12	MM	0.71
+ENSG00000099810	MTAP	high_confidence	cancer_gene	non-driver	72.98	CLL; MM; pB-ALL; pB-ALL ER; pB-ALL HD	
+ENSG00000099889	ARVCF	low_confidence	not_relevant	non-driver	29.71	pB-ALL HD	0.57
+ENSG00000100138	SNU13	not_classified	not_relevant	non-driver	18.23	pB-ALL ER	0.62
+ENSG00000100162	CENPM	medium_confidence	not_relevant	non-driver	70.53	pB-ALL ER	0.57
+ENSG00000100258	LMF2	not_classified	not_relevant	non-driver	0	CLL	0.84
+ENSG00000100288	CHKB	not_classified	not_relevant	non-driver	13.25	CLL	0.85
+ENSG00000100290	BIK	medium_confidence	cancer_gene	non-driver	32.99	MM	0.65
+ENSG00000100294	MCAT	not_classified	not_relevant	non-driver	8.62	MM	0.68
+ENSG00000100299	ARSA	not_classified	not_relevant	non-driver	11.93	CLL	0.85
+ENSG00000100307	CBX7	high_confidence	cancer_gene	non-driver	64.58	MM	1
+ENSG00000100316	RPL3	medium_confidence	cancer_gene	non-driver	25.33	MM	1
+ENSG00000100427	MLC1	medium_confidence	not_relevant	non-driver	37.97	CLL	0.8
+ENSG00000100479	POLE2	high_confidence	cancer_gene	non-driver	67.67	HL	0.9
+ENSG00000100483	VCPKMT	low_confidence	not_relevant	non-driver	30.04	HL	0.92
+ENSG00000100519	PSMC6	low_confidence	not_relevant	non-driver	32.91	B-ALL 2	0.7
+ENSG00000100522	GNPNAT1	medium_confidence	not_relevant	non-driver	53.22	B-ALL 2	0.65
+ENSG00000100523	DDHD1	not_classified	not_relevant	non-driver	15.52	B-ALL 2	0.64
+ENSG00000100625	SIX4	medium_confidence	cancer_gene	non-driver	22.78	MZL	0.53
+ENSG00000100644	HIF1A	high_confidence	cancer_gene	Act	52.54	MZL	0.61
+ENSG00000100749	VRK1	medium_confidence	not_relevant	non-driver	49.3	FL	0.9
+ENSG00000100883	SRP54	not_classified	not_relevant	non-driver	7.78	MM	0.77
+ENSG00000101152	DNAJC5	not_classified	not_relevant	non-driver	14.39	MM	0.63
+ENSG00000101198	NKAIN4	low_confidence	not_relevant	non-driver	34.16	MM	0.55
+ENSG00000101199	ARFGAP1	not_classified	not_relevant	non-driver	17.68	MM	0.54
+ENSG00000101210	EEF1A2	medium_confidence	cancer_gene	non-driver	45.47	MM	0.56
+ENSG00000101213	PTK6	high_confidence	cancer_gene	ambiguous	76.46	FL; MM	
+ENSG00000101310	SEC23B	medium_confidence	cancer_gene	non-driver	22.96	CLL	0.78
+ENSG00000101343	CRNKL1	high_confidence	cancer_gene	Act	29.76	CLL	0.77
+ENSG00000101665	SMAD7	medium_confidence	cancer_gene	non-driver	33	LYM	0.71
+ENSG00000102886	GDPD3	medium_confidence	not_relevant	non-driver	36.87	MM	0.6
+ENSG00000102908	NFAT5	low_confidence	not_relevant	non-driver	26.36	LYM	0.51
+ENSG00000102974	CTCF	high_confidence	cancer_gene	LoF	36.22	pB-ALL	0.7
+ENSG00000102977	ACD	not_classified	not_relevant	non-driver	12.45	pB-ALL	0.66
+ENSG00000102981	PARD6A	medium_confidence	not_relevant	non-driver	43.15	pB-ALL	0.66
+ENSG00000103066	PLA2G15	not_classified	not_relevant	non-driver	17.8	pB-ALL	0.55
+ENSG00000103111	MON1B	not_classified	not_relevant	non-driver	18.03	pB-ALL 2	0.57
+ENSG00000103241	FOXF1	medium_confidence	cancer_gene	non-driver	29.62	CLL	1
+ENSG00000103932	RPAP1	low_confidence	not_relevant	non-driver	21.07	MM	0.56
+ENSG00000104043	ATP8B4	low_confidence	not_relevant	non-driver	25.11	MZL	0.51
+ENSG00000104081	BMF	medium_confidence	not_relevant	non-driver	39.19	CLL; LYM	
+ENSG00000104517	UBR5	high_confidence	cancer_gene	ambiguous	57.56	CLL; MM	
+ENSG00000105058	FAM32A	low_confidence	not_relevant	non-driver	25	MM; pB-ALL ER	
+ENSG00000105325	FZR1	medium_confidence	not_relevant	non-driver	42.67	MM	0.99
+ENSG00000105373	NOP53	medium_confidence	not_relevant	non-driver	64.32	pB-ALL HD	0.81
+ENSG00000105419	MEIS3	medium_confidence	not_relevant	non-driver	35.48	pB-ALL HD	0.81
+ENSG00000105467	SYNGR4	not_classified	not_relevant	non-driver	12.5	CLL; DLBCL	
+ENSG00000105479	ODAD1	not_classified	not_relevant	non-driver	4.44	CLL; DLBCL	
+ENSG00000105486	LIG1	medium_confidence	not_relevant	non-driver	40.39	MM	0.61
+ENSG00000105499	PLA2G4C	low_confidence	not_relevant	non-driver	28.31	MM	0.54
+ENSG00000105668	UPK1A	medium_confidence	not_relevant	non-driver	38.72	CLL	0.59
+ENSG00000105675	ATP4A	medium_confidence	cancer_gene	non-driver	46.82	CLL	0.73
+ENSG00000105677	TMEM147	medium_confidence	not_relevant	non-driver	50.43	CLL	0.67
+ENSG00000105679	GAPDHS	low_confidence	not_relevant	non-driver	25.52	CLL	0.64
+ENSG00000105695	MAG	not_classified	not_relevant	non-driver	13.41	CLL	0.65
+ENSG00000105697	HAMP	medium_confidence	cancer_gene	non-driver	15.01	CLL	0.63
+ENSG00000105698	USF2	medium_confidence	cancer_gene	non-driver	34.66	CLL	0.71
+ENSG00000105699	LSR	not_classified	not_relevant	non-driver	15.57	CLL	0.71
+ENSG00000105705	SUGP1	medium_confidence	cancer_gene	non-driver	44.51	FL; MM	
+ENSG00000105707	HPN	medium_confidence	cancer_gene	non-driver	20.1	CLL	0.7
+ENSG00000105711	SCN1B	not_classified	not_relevant	non-driver	6.41	CLL	0.71
+ENSG00000105856	HBP1	low_confidence	not_relevant	non-driver	29.33	MM	0.62
+ENSG00000105877	DNAH11	not_classified	not_relevant	non-driver	12.23	MM	1
+ENSG00000106070	GRB10	low_confidence	not_relevant	non-driver	27.96	pB-ALL HD	0.55
+ENSG00000106328	FSCN3	low_confidence	not_relevant	non-driver	22.82	pB-ALL ER	0.56
+ENSG00000106348	IMPDH1	medium_confidence	cancer_gene	non-driver	28.45	pB-ALL ER	0.59
+ENSG00000107020	PLGRKT	low_confidence	not_relevant	non-driver	30.95	pB-ALL	0.77
+ENSG00000107036	RIC1	not_classified	not_relevant	non-driver	11.06	LYM; pB-ALL	
+ENSG00000107077	KDM4C	medium_confidence	not_relevant	non-driver	62.45	LYM	0.94
+ENSG00000107242	PIP5K1B	low_confidence	not_relevant	non-driver	27.03	MM	0.56
+ENSG00000107485	GATA3	high_confidence	bloodcancer_gene	ambiguous	43.38	B-ALL 2; HL; pB-ALL	
+ENSG00000107736	CDH23	not_classified	not_relevant	non-driver	10	MZL	0.87
+ENSG00000107902	LHPP	high_confidence	cancer_gene	non-driver	52.19	MM; pB-ALL; pB-ALL HD	
+ENSG00000107960	STN1	medium_confidence	cancer_gene	non-driver	39.1	MM	1
+ENSG00000107968	MAP3K8	high_confidence	cancer_gene	non-driver	61.6	MZL	0.9
+ENSG00000108039	XPNPEP1	not_classified	not_relevant	non-driver	18.27	MM	0.56
+ENSG00000108055	SMC3	medium_confidence	cancer_gene	non-driver	31.48	MM	0.53
+ENSG00000108352	RAPGEFL1	medium_confidence	not_relevant	non-driver	60.09	pB-ALL ER	0.66
+ENSG00000108511	HOXB6	medium_confidence	not_relevant	non-driver	37.11	pB-ALL ER	0.95
+ENSG00000108557	RAI1	not_classified	not_relevant	non-driver	12.67	pB-ALL; pB-ALL ER	
+ENSG00000108798	ABI3	not_classified	not_relevant	non-driver	3.74	pB-ALL ER	0.95
+ENSG00000109320	NFKB1	high_confidence	bloodcancer_gene	non-driver	41.09	LYM; MM	
+ENSG00000109475	RPL34	medium_confidence	not_relevant	non-driver	38.49	CLL	0.64
+ENSG00000109846	CRYAB	low_confidence	not_relevant	non-driver	23.11	pB-ALL 2	0.54
+ENSG00000109917	ZPR1	not_classified	not_relevant	non-driver	11.65	pB-ALL HD	0.55
+ENSG00000110092	CCND1	high_confidence	bloodcancer_gene	Act	76.1	MM	0.98
+ENSG00000110104	CCDC86	medium_confidence	not_relevant	non-driver	52.67	pB-ALL 2	0.65
+ENSG00000110243	APOA5	not_classified	not_relevant	non-driver	5.92	pB-ALL HD	0.51
+ENSG00000110367	DDX6	high_confidence	cancer_gene	ambiguous	27.86	FL	0.53
+ENSG00000110375	UPK2	medium_confidence	not_relevant	non-driver	53.07	LYM	0.87
+ENSG00000110628	SLC22A18	medium_confidence	cancer_gene	non-driver	47.66	CLL; LYM	
+ENSG00000110651	CD81	medium_confidence	not_relevant	non-driver	36.36	CLL	0.97
+ENSG00000110665	C11orf21	medium_confidence	not_relevant	non-driver	40.88	CLL	0.83
+ENSG00000110713	NUP98	high_confidence	cancer_gene	Act	66.67	MM	0.7
+ENSG00000110777	POU2AF1	high_confidence	bloodcancer_gene	Act	42.38	HL	0.98
+ENSG00000111144	LTA4H	low_confidence	not_relevant	non-driver	22.34	pB-ALL	0.98
+ENSG00000111445	RFC5	medium_confidence	cancer_gene	non-driver	35.35	B-ALL 2	0.99
+ENSG00000111554	MDM1	not_classified	not_relevant	non-driver	16.61	pB-ALL	0.76
+ENSG00000111640	GAPDH	medium_confidence	cancer_gene	non-driver	25.52	CLL	0.67
+ENSG00000111641	NOP2	high_confidence	cancer_gene	non-driver	54.71	CLL	0.66
+ENSG00000111642	CHD4	high_confidence	cancer_gene	Act	48.56	CLL	0.69
+ENSG00000111666	CHPT1	low_confidence	not_relevant	non-driver	29.59	MZL	0.55
+ENSG00000111707	SUDS3	low_confidence	not_relevant	non-driver	32.81	B-ALL 2	0.95
+ENSG00000111727	HCFC2	medium_confidence	not_relevant	non-driver	48.07	B-ALL 2	0.76
+ENSG00000111817	DSE	not_classified	not_relevant	non-driver	6.58	MM	0.56
+ENSG00000112559	MDFI	medium_confidence	not_relevant	non-driver	35.74	DLBCL	0.65
+ENSG00000112561	TFEB	high_confidence	cancer_gene	Act	35.22	CLL; MM	
+ENSG00000112578	BYSL	medium_confidence	not_relevant	non-driver	54.37	MM	0.92
+ENSG00000112599	GUCA1B	not_classified	not_relevant	non-driver	2.36	MM	0.91
+ENSG00000112679	DUSP22	medium_confidence	not_relevant	non-driver	66.53	CLL; DLBCL; MM	
+ENSG00000112739	PRPF4B	medium_confidence	not_relevant	non-driver	44.73	DLBCL	0.59
+ENSG00000112941	TENT4A	low_confidence	not_relevant	non-driver	29.9	MM	0.79
+ENSG00000113580	NR3C1	high_confidence	bloodcancer_gene	non-driver	21.76	MM	0.63
+ENSG00000113742	CPEB4	medium_confidence	not_relevant	non-driver	44.52	MM	1
+ENSG00000113838	TBCCD1	not_classified	not_relevant	non-driver	9.2	MZL	0.92
+ENSG00000113916	BCL6	high_confidence	bloodcancer_gene	Act	71.79	CLL; FL; LYM	
+ENSG00000114013	CD86	medium_confidence	cancer_gene	non-driver	37.09	DLBCL	0.95
+ENSG00000114248	LRRC31	medium_confidence	not_relevant	non-driver	44.91	MM	0.99
+ENSG00000114503	NCBP2	medium_confidence	not_relevant	non-driver	54.84	CLL	0.54
+ENSG00000114742	WDR48	medium_confidence	not_relevant	non-driver	49.46	CLL	0.89
+ENSG00000114745	GORASP1	low_confidence	not_relevant	non-driver	21.62	CLL	0.96
+ENSG00000114861	FOXP1	high_confidence	cancer_gene	Act	43.23	FL	0.8
+ENSG00000115020	PIKFYVE	low_confidence	not_relevant	non-driver	26.25	pB-ALL ER	0.54
+ENSG00000115128	SF3B6	medium_confidence	not_relevant	unknown	36.87	MZL	0.69
+ENSG00000115129	TP53I3	medium_confidence	not_relevant	non-driver	70.18	MZL	0.59
+ENSG00000115310	RTN4	not_classified	not_relevant	non-driver	15.24	pB-ALL 2	0.71
+ENSG00000115524	SF3B1	high_confidence	cancer_gene	Act	77.16	pB-ALL ER	0.53
+ENSG00000115652	UXS1	low_confidence	not_relevant	non-driver	30.57	pB-ALL HD	0.67
+ENSG00000115677	HDLBP	medium_confidence	cancer_gene	non-driver	44.29	CLL	0.88
+ENSG00000115718	PROC	not_classified	not_relevant	non-driver	11.46	MZL	0.74
+ENSG00000115756	HPCAL1	medium_confidence	not_relevant	non-driver	45.52	pB-ALL HD	0.57
+ENSG00000115828	QPCT	medium_confidence	not_relevant	non-driver	37.16	CLL	0.66
+ENSG00000115841	RMDN2	medium_confidence	not_relevant	non-driver	38.78	CLL	0.72
+ENSG00000115902	SLC1A4	low_confidence	not_relevant	non-driver	26.19	CLL	0.88
+ENSG00000115942	ORC2	low_confidence	not_relevant	non-driver	26.11	CLL	0.94
+ENSG00000115993	TRAK2	not_classified	not_relevant	non-driver	18.79	CLL	0.79
+ENSG00000116205	TCEANC2	not_classified	not_relevant	non-driver	8.33	pB-ALL 2	0.65
+ENSG00000116209	TMEM59	low_confidence	not_relevant	non-driver	31.95	pB-ALL 2	0.65
+ENSG00000116273	PHF13	medium_confidence	not_relevant	non-driver	39.09	pB-ALL ER	0.6
+ENSG00000116396	KCNC4	not_classified	not_relevant	non-driver	11.44	MM	0.53
+ENSG00000116455	WDR77	medium_confidence	not_relevant	non-driver	64.37	DLBCL	0.53
+ENSG00000116459	ATP5PB	not_classified	not_relevant	non-driver	12.93	DLBCL	0.53
+ENSG00000116717	GADD45A	high_confidence	cancer_gene	non-driver	58.3	pB-ALL	0.66
+ENSG00000118160	SLC8A2	not_classified	not_relevant	non-driver	12.48	pB-ALL HD	0.8
+ENSG00000118513	MYB	high_confidence	cancer_gene	Act	26.04	MM; pB-ALL; pB-ALL HD	
+ENSG00000118985	ELL2	medium_confidence	not_relevant	non-driver	51.76	MM	0.85
+ENSG00000119013	NDUFB3	medium_confidence	cancer_gene	non-driver	16.02	CLL	0.68
+ENSG00000119231	SENP5	medium_confidence	cancer_gene	non-driver	43.63	CLL	0.53
+ENSG00000119772	DNMT3A	high_confidence	bloodcancer_gene	LoF	57.64	MM	0.92
+ENSG00000119844	AFTPH	not_classified	not_relevant	non-driver	7.61	CLL	0.97
+ENSG00000120051	CFAP58	medium_confidence	not_relevant	non-driver	36.87	MM	1
+ENSG00000120093	HOXB3	medium_confidence	cancer_gene	non-driver	41.32	pB-ALL ER	0.95
+ENSG00000120210	INSL6	not_classified	not_relevant	non-driver	14.02	pB-ALL	0.69
+ENSG00000120217	CD274	high_confidence	bloodcancer_gene	LoF	82.96	pB-ALL	0.74
+ENSG00000120318	ARAP3	low_confidence	not_relevant	non-driver	27.69	DLBCL	0.9
+ENSG00000120539	MASTL	medium_confidence	not_relevant	non-driver	60.05	MM	0.78
+ENSG00000120805	ARL1	not_classified	not_relevant	non-driver	12.12	MZL	0.56
+ENSG00000120820	GLT8D2	medium_confidence	not_relevant	non-driver	42.13	B-ALL 2	0.77
+ENSG00000121067	SPOP	high_confidence	cancer_gene	ambiguous	73.7	pB-ALL ER	0.95
+ENSG00000121289	CEP89	medium_confidence	cancer_gene	non-driver	26.06	CLL	0.52
+ENSG00000122912	SLC25A16	not_classified	not_relevant	non-driver	10.16	DLBCL	0.51
+ENSG00000123066	MED13L	low_confidence	not_relevant	non-driver	23.46	pB-ALL	0.94
+ENSG00000124074	ENKD1	low_confidence	not_relevant	non-driver	24.04	pB-ALL	0.68
+ENSG00000124126	PREX1	high_confidence	cancer_gene	non-driver	57.11	MM	0.94
+ENSG00000124164	VAPB	not_classified	not_relevant	non-driver	9.72	FL	0.96
+ENSG00000124198	ARFGEF2	not_classified	not_relevant	non-driver	15.98	MM	0.88
+ENSG00000124227	ANKRD60	not_classified	not_relevant	unknown	0	CLL	0.55
+ENSG00000124243	BCAS4	medium_confidence	not_relevant	non-driver	50.8	pB-ALL ER	0.54
+ENSG00000124535	WRNIP1	low_confidence	not_relevant	non-driver	30.73	B-ALL 2; CLL	
+ENSG00000124570	SERPINB6	not_classified	not_relevant	non-driver	17.74	B-ALL 2; CLL	
+ENSG00000124587	PEX6	not_classified	not_relevant	non-driver	5.12	MM	0.89
+ENSG00000124641	MED20	not_classified	not_relevant	non-driver	17.04	MM	0.92
+ENSG00000124782	RREB1	medium_confidence	not_relevant	non-driver	62.38	CLL	0.55
+ENSG00000125257	ABCC4	medium_confidence	cancer_gene	non-driver	42.25	HL	1
+ENSG00000125347	IRF1	high_confidence	bloodcancer_gene	LoF	42.65	pB-ALL HD	1
+ENSG00000125384	PTGER2	medium_confidence	cancer_gene	non-driver	27.05	B-ALL 2	0.72
+ENSG00000125484	GTF3C4	medium_confidence	not_relevant	non-driver	51.1	pB-ALL ER	0.57
+ENSG00000125508	SRMS	medium_confidence	cancer_gene	non-driver	33.36	MM; pB-ALL ER	
+ENSG00000125510	OPRL1	not_classified	not_relevant	non-driver	6.99	MM	0.6
+ENSG00000125520	SLC2A4RG	medium_confidence	cancer_gene	non-driver	45.82	MM; pB-ALL ER	
+ENSG00000125531	FNDC11	not_classified	not_relevant	non-driver		MM; pB-ALL ER	
+ENSG00000125844	RRBP1	medium_confidence	not_relevant	non-driver	46.61	CLL; pB-ALL	
+ENSG00000125846	ZNF133	medium_confidence	cancer_gene	non-driver	38.01	CLL; pB-ALL	
+ENSG00000125864	BFSP1	not_classified	not_relevant	non-driver	13.17	pB-ALL	0.81
+ENSG00000125868	DSTN	low_confidence	not_relevant	non-driver	22.51	pB-ALL	0.81
+ENSG00000125870	SNRPB2	low_confidence	not_relevant	non-driver	31.85	CLL	0.76
+ENSG00000125871	MGME1	low_confidence	not_relevant	non-driver	21.36	CLL; pB-ALL	
+ENSG00000125888	BANF2	not_classified	not_relevant	non-driver	14.06	pB-ALL	0.87
+ENSG00000126259	KIRREL2	not_classified	not_relevant	non-driver	14.24	CLL	0.55
+ENSG00000126262	FFAR2	not_classified	not_relevant	non-driver	15.03	CLL	0.72
+ENSG00000126870	DYNC2I1	low_confidence	not_relevant	non-driver	21.07	CLL	0.63
+ENSG00000127528	KLF2	medium_confidence	cancer_gene	non-driver	32.5	CLL; MM	
+ENSG00000128524	ATP6V1F	medium_confidence	not_relevant	non-driver	46.46	pB-ALL ER	0.61
+ENSG00000128585	MKLN1	high_confidence	cancer_gene	non-driver	52.32	MM	0.76
+ENSG00000128617	OPN1SW	not_classified	not_relevant	non-driver	3.23	pB-ALL ER	0.53
+ENSG00000128944	KNSTRN	high_confidence	cancer_gene	non-driver	50.42	LYM	0.55
+ENSG00000129292	PHF20L1	medium_confidence	not_relevant	non-driver	64.35	CLL	0.59
+ENSG00000129295	LRRC6	not_classified	not_relevant	non-driver	17.47	CLL	0.58
+ENSG00000129515	SNX6	not_classified	not_relevant	non-driver	15.47	MM	0.76
+ENSG00000129518	EAPP	not_classified	not_relevant	non-driver	9.97	MM	0.72
+ENSG00000129521	EGLN3	medium_confidence	not_relevant	non-driver	52	MM	0.66
+ENSG00000129749	CHRNA10	not_classified	not_relevant	non-driver	9.4	MM	0.68
+ENSG00000129932	DOHH	medium_confidence	not_relevant	non-driver	51.98	MM	0.98
+ENSG00000129933	MAU2	medium_confidence	cancer_gene	non-driver	16.1	FL; MM	
+ENSG00000130226	DPP6	medium_confidence	cancer_gene	unknown	17.54	pB-ALL ER	0.75
+ENSG00000130270	ATP8B3	medium_confidence	not_relevant	non-driver	36.78	HL	1
+ENSG00000130487	KLHDC7B	medium_confidence	not_relevant	unknown	62.23	CLL	0.84
+ENSG00000130589	HELZ2	low_confidence	not_relevant	non-driver	25.56	MM	0.64
+ENSG00000131143	COX4I1	not_classified	not_relevant	non-driver	19	CLL	1
+ENSG00000131148	EMC8	not_classified	not_relevant	non-driver	11.39	CLL	1
+ENSG00000131323	TRAF3	high_confidence	cancer_gene	LoF	56.54	MM	0.78
+ENSG00000131747	TOP2A	high_confidence	bloodcancer_gene	Act	78.97	CLL	0.61
+ENSG00000131759	RARA	high_confidence	bloodcancer_gene	Act	49.84	pB-ALL	0.54
+ENSG00000131914	LIN28A	medium_confidence	not_relevant	non-driver	51.44	MM	0.65
+ENSG00000132436	FIGNL1	low_confidence	not_relevant	non-driver	34.89	pB-ALL HD	1
+ENSG00000132518	GUCY2D	medium_confidence	cancer_gene	non-driver	4.55	LYM	0.61
+ENSG00000132823	OSER1	low_confidence	not_relevant	non-driver	23.71	pB-ALL HD	0.6
+ENSG00000132963	POMP	low_confidence	not_relevant	non-driver	22.33	pB-ALL ER	0.57
+ENSG00000133561	GIMAP6	medium_confidence	not_relevant	non-driver	51.99	pB-ALL HD	0.92
+ENSG00000133606	MKRN1	medium_confidence	not_relevant	non-driver	48.8	B-ALL 2	0.6
+ENSG00000134030	CTIF	not_classified	not_relevant	non-driver	8.37	LYM	0.58
+ENSG00000134193	REG4	medium_confidence	not_relevant	non-driver	67.26	DLBCL	0.58
+ENSG00000134249	ADAM30	low_confidence	not_relevant	non-driver	22.22	DLBCL	0.85
+ENSG00000134444	RELCH	low_confidence	not_relevant	non-driver	22.82	pB-ALL ER	0.56
+ENSG00000134709	HOOK1	low_confidence	not_relevant	non-driver	29.79	LYM	0.7
+ENSG00000134815	DHX34	medium_confidence	not_relevant	non-driver	54.5	pB-ALL HD	0.8
+ENSG00000134954	ETS1	high_confidence	cancer_gene	non-driver	51.01	FL; pB-ALL ER	
+ENSG00000135090	TAOK3	medium_confidence	cancer_gene	non-driver	36.09	B-ALL 2	0.81
+ENSG00000135679	MDM2	high_confidence	bloodcancer_gene	Act	85.18	pB-ALL	0.69
+ENSG00000135842	NIBAN1	medium_confidence	not_relevant	non-driver	77.24	LYM	0.68
+ENSG00000135899	SP110	low_confidence	not_relevant	non-driver	33.74	CLL; MM	
+ENSG00000135932	CAB39	medium_confidence	not_relevant	non-driver	43.03	CLL	0.95
+ENSG00000135966	TGFBRAP1	low_confidence	not_relevant	non-driver	21.82	pB-ALL HD	0.84
+ENSG00000135972	MRPS9	not_classified	not_relevant	non-driver	18.75	pB-ALL HD	0.66
+ENSG00000135974	C2orf49	not_classified	not_relevant	non-driver	12.5	pB-ALL HD	0.72
+ENSG00000136010	ALDH1L2	medium_confidence	not_relevant	non-driver	47.83	B-ALL 2	0.84
+ENSG00000136051	WASHC4	not_classified	not_relevant	non-driver	6.46	B-ALL 2	0.84
+ENSG00000136158	SPRY2	medium_confidence	cancer_gene	non-driver	39.62	pB-ALL	0.55
+ENSG00000136205	TNS3	medium_confidence	cancer_gene	non-driver	48.65	MM; pB-ALL HD	
+ENSG00000136231	IGF2BP3	medium_confidence	not_relevant	non-driver	74.29	FL	0.57
+ENSG00000136273	HUS1	medium_confidence	cancer_gene	non-driver	38.58	pB-ALL HD	0.57
+ENSG00000136381	IREB2	medium_confidence	cancer_gene	non-driver	36.29	CLL	0.67
+ENSG00000136436	CALCOCO2	medium_confidence	not_relevant	non-driver	37.03	pB-ALL ER	0.95
+ENSG00000136573	BLK	high_confidence	bloodcancer_gene	non-driver	24.69	FL	0.84
+ENSG00000136574	GATA4	not_classified	not_relevant	non-driver	18.57	FL	0.72
+ENSG00000136603	SKIL	medium_confidence	cancer_gene	non-driver	44.95	CLL; MM	
+ENSG00000136758	YME1L1	low_confidence	not_relevant	non-driver	24.38	MM	0.78
+ENSG00000136986	DERL1	medium_confidence	not_relevant	non-driver	37.39	MZL	0.83
+ENSG00000136997	MYC	high_confidence	bloodcancer_gene	Act	71.73	CLL; DLBCL; FL; HL; LYM; MM; pB-ALL	
+ENSG00000137145	DENND4C	low_confidence	not_relevant	non-driver	26.33	MM	0.83
+ENSG00000137154	RPS6	medium_confidence	cancer_gene	non-driver	29.51	MM	0.86
+ENSG00000137265	IRF4	high_confidence	bloodcancer_gene	ambiguous	52.85	CLL; DLBCL; MM	
+ENSG00000137409	MTCH1	medium_confidence	not_relevant	non-driver	39.5	B-ALL 2	0.68
+ENSG00000137656	BUD13	not_classified	not_relevant	non-driver	14.89	pB-ALL HD	0.54
+ENSG00000137713	PPP2R1B	high_confidence	cancer_gene	non-driver	52.61	pB-ALL	0.75
+ENSG00000137841	PLCB2	not_classified	not_relevant	non-driver	17.25	CLL; LYM	
+ENSG00000137843	PAK6	high_confidence	cancer_gene	non-driver	52.27	CLL; LYM	
+ENSG00000137871	ZNF280D	not_classified	not_relevant	non-driver	9.2	CLL	0.55
+ENSG00000138092	CENPO	medium_confidence	not_relevant	non-driver	50.12	DLBCL	0.95
+ENSG00000138101	DTNB	not_classified	not_relevant	non-driver	7.22	MM	1
+ENSG00000138166	DUSP5	medium_confidence	not_relevant	non-driver	43.17	MM	0.56
+ENSG00000138326	RPS24	low_confidence	not_relevant	non-driver	30.65	CLL	0.55
+ENSG00000138346	DNA2	medium_confidence	cancer_gene	unknown	28.75	DLBCL	0.55
+ENSG00000138378	STAT4	low_confidence	not_relevant	non-driver	26.9	B-ALL 2	0.63
+ENSG00000138413	IDH1	high_confidence	bloodcancer_gene	Act	86.16	pB-ALL ER	0.59
+ENSG00000138600	SPPL2A	low_confidence	not_relevant	non-driver	28.31	FL	0.56
+ENSG00000138629	UBL7	low_confidence	not_relevant	non-driver	33.1	MM	0.71
+ENSG00000138663	COPS4	medium_confidence	not_relevant	non-driver	50.52	B-ALL 2	0.68
+ENSG00000138668	HNRNPD	medium_confidence	not_relevant	non-driver	39.79	B-ALL 2	0.68
+ENSG00000138674	SEC31A	low_confidence	not_relevant	non-driver	25.68	B-ALL 2	0.94
+ENSG00000138777	PPA2	not_classified	not_relevant	non-driver	15.79	MM	0.92
+ENSG00000138780	GSTCD	not_classified	not_relevant	non-driver	13.69	MM	0.92
+ENSG00000138785	INTS12	low_confidence	not_relevant	non-driver	26.33	MM	0.93
+ENSG00000138795	LEF1	high_confidence	bloodcancer_gene	ambiguous	47	CLL	0.83
+ENSG00000138814	PPP3CA	high_confidence	cancer_gene	LoF	26.28	CLL	0.76
+ENSG00000139190	VAMP1	not_classified	not_relevant	non-driver	9.08	CLL	0.6
+ENSG00000139192	TAPBPL	medium_confidence	not_relevant	non-driver	39.99	CLL	0.59
+ENSG00000139193	CD27	medium_confidence	not_relevant	non-driver	58.51	CLL	0.58
+ENSG00000139343	SNRPF	medium_confidence	not_relevant	non-driver	42.5	pB-ALL	0.58
+ENSG00000139344	AMDHD1	medium_confidence	not_relevant	non-driver	36.22	pB-ALL	0.93
+ENSG00000139618	BRCA2	high_confidence	cancer_gene	LoF	90.05	MM	1
+ENSG00000140262	TCF12	high_confidence	cancer_gene	fusion	42.11	CLL	0.73
+ENSG00000140319	SRP14	not_classified	not_relevant	non-driver	18.28	CLL; LYM	
+ENSG00000140332	TLE3	medium_confidence	not_relevant	non-driver	39.51	CLL; FL	
+ENSG00000140464	PML	high_confidence	cancer_gene	LoF	56.35	MM	0.7
+ENSG00000140563	MCTP2	not_classified	not_relevant	non-driver	20.42	MM	0.51
+ENSG00000140968	IRF8	high_confidence	bloodcancer_gene	non-driver	37.86	CLL	1
+ENSG00000141293	SKAP1	medium_confidence	not_relevant	non-driver	42.96	pB-ALL ER	0.95
+ENSG00000141294	LRRC46	low_confidence	not_relevant	non-driver	30.04	HL	0.52
+ENSG00000141522	ARHGDIA	medium_confidence	not_relevant	non-driver	42.35	FL	0.64
+ENSG00000141526	SLC16A3	medium_confidence	not_relevant	non-driver	43.69	FL	0.64
+ENSG00000141568	FOXK2	medium_confidence	not_relevant	non-driver	58.68	FL	0.74
+ENSG00000141627	DYM	not_classified	not_relevant	non-driver	10.69	LYM	0.59
+ENSG00000141682	PMAIP1	medium_confidence	not_relevant	non-driver	77.48	CLL	0.88
+ENSG00000141905	NFIC	medium_confidence	not_relevant	non-driver	35.96	MM	1
+ENSG00000141977	CIB3	not_classified	not_relevant	non-driver	3.53	MM; pB-ALL ER	
+ENSG00000142227	EMP3	medium_confidence	not_relevant	non-driver	63.24	CLL; DLBCL	
+ENSG00000142599	RERE	not_classified	not_relevant	non-driver	15.08	pB-ALL HD	0.61
+ENSG00000143110	C1orf162	low_confidence	not_relevant	non-driver	30.66	DLBCL	0.6
+ENSG00000143167	GPA33	high_confidence	cancer_gene	non-driver	75.1	MZL	0.57
+ENSG00000143217	NECTIN4	high_confidence	cancer_gene	non-driver	69.59	DLBCL	0.51
+ENSG00000143858	SYT2	not_classified	not_relevant	non-driver	16.63	CLL	0.55
+ENSG00000143869	GDF7	not_classified	not_relevant	non-driver	17.82	MZL	0.56
+ENSG00000143870	PDIA6	medium_confidence	not_relevant	non-driver	39.8	FL	0.74
+ENSG00000144354	CDCA7	medium_confidence	cancer_gene	non-driver	46.88	MM	0.54
+ENSG00000144445	KANSL1L	medium_confidence	not_relevant	non-driver	36.79	pB-ALL ER	0.56
+ENSG00000144655	CSRNP1	low_confidence	not_relevant	non-driver	33.72	CLL	0.95
+ENSG00000144659	SLC25A38	low_confidence	not_relevant	non-driver	25.81	CLL	0.89
+ENSG00000145012	LPP	high_confidence	cancer_gene	Act	8.17	FL	1
+ENSG00000145088	EAF2	high_confidence	cancer_gene	non-driver	64.86	DLBCL; FL	
+ENSG00000145192	AHSG	not_classified	not_relevant	non-driver	18.22	MZL	0.99
+ENSG00000145293	ENOPH1	medium_confidence	not_relevant	non-driver	35.26	B-ALL 2	0.68
+ENSG00000145685	LHFPL2	medium_confidence	not_relevant	non-driver	39.68	CLL	0.66
+ENSG00000145919	BOD1	low_confidence	not_relevant	non-driver	29.15	MM	1
+ENSG00000145949	MYLK4	low_confidence	not_relevant	non-driver	23	B-ALL 2; CLL	
+ENSG00000146192	FGD2	not_classified	not_relevant	non-driver	13.44	MZL	0.88
+ENSG00000146223	RPL7L1	not_classified	not_relevant	non-driver	20.97	MM	0.97
+ENSG00000146918	NCAPG2	medium_confidence	not_relevant	non-driver	66.97	CLL	0.75
+ENSG00000147697	GSDMC	high_confidence	cancer_gene	non-driver	73.28	FL	0.62
+ENSG00000147854	UHRF2	medium_confidence	not_relevant	non-driver	55.22	LYM	0.91
+ENSG00000147874	HAUS6	medium_confidence	cancer_gene	non-driver	35.84	MM	0.98
+ENSG00000147883	CDKN2B	high_confidence	cancer_gene	non-driver	68.78	CLL; MM; pB-ALL; pB-ALL ER; pB-ALL HD	
+ENSG00000147889	CDKN2A	high_confidence	bloodcancer_gene	LoF	83.1	CLL; MM; pB-ALL; pB-ALL ER; pB-ALL HD	
+ENSG00000148606	POLR3A	not_classified	not_relevant	non-driver	11.07	CLL	0.55
+ENSG00000148841	ITPRIP	medium_confidence	not_relevant	non-driver	40.46	MM	0.99
+ENSG00000148985	PGAP2	not_classified	not_relevant	non-driver	11.1	MM	0.62
+ENSG00000149212	SESN3	medium_confidence	cancer_gene	non-driver	37.98	MM	0.77
+ENSG00000149218	ENDOD1	medium_confidence	not_relevant	non-driver	51.49	MM	0.76
+ENSG00000149231	CCDC82	low_confidence	not_relevant	non-driver	30.66	MM	0.72
+ENSG00000149300	C11orf52	low_confidence	not_relevant	non-driver	25	pB-ALL 2	0.54
+ENSG00000149474	KAT14	not_classified	not_relevant	non-driver	18.75	CLL	0.8
+ENSG00000149476	TKFC	low_confidence	not_relevant	non-driver	32.58	pB-ALL 2	0.52
+ENSG00000149922	TBX6	not_classified	not_relevant	non-driver	9.09	MM	0.6
+ENSG00000149923	PPP4C	medium_confidence	not_relevant	non-driver	38.38	MM	0.67
+ENSG00000149925	ALDOA	medium_confidence	not_relevant	non-driver	50.1	MM	0.67
+ENSG00000149930	TAOK2	low_confidence	not_relevant	non-driver	31.86	MM	0.61
+ENSG00000150054	MPP7	low_confidence	not_relevant	non-driver	31.46	MM	0.73
+ENSG00000150347	ARID5B	high_confidence	cancer_gene	non-driver	57.61	pB-ALL; pB-ALL ER; pB-ALL HD	
+ENSG00000150667	FSIP1	medium_confidence	not_relevant	non-driver	70.71	CLL	1
+ENSG00000151327	FAM177A1	not_classified	not_relevant	non-driver	14.06	MM; pB-ALL ER	
+ENSG00000151364	KCTD14	low_confidence	not_relevant	non-driver	22.82	FL	0.71
+ENSG00000151612	ZNF827	medium_confidence	not_relevant	non-driver	44.43	FL	0.8
+ENSG00000151702	FLI1	high_confidence	bloodcancer_gene	Act	73.68	FL	1
+ENSG00000151778	SERP2	low_confidence	not_relevant	non-driver	24.02	pB-ALL 2	0.73
+ENSG00000152102	FAM168B	low_confidence	not_relevant	non-driver	27.96	pB-ALL 2	0.88
+ENSG00000152795	HNRNPDL	not_classified	not_relevant	non-driver	18.56	B-ALL 2	0.68
+ENSG00000153094	BCL2L11	high_confidence	cancer_gene	non-driver	60.05	FL; MZL	
+ENSG00000153310	CYRIB	medium_confidence	not_relevant	non-driver	40.64	pB-ALL 2	0.57
+ENSG00000153531	ADPRHL1	medium_confidence	not_relevant	non-driver	46.46	MM	0.57
+ENSG00000153922	CHD1	medium_confidence	cancer_gene	non-driver	33.2	MM	0.69
+ENSG00000154102	C16orf74	medium_confidence	not_relevant	non-driver	56.25	CLL	1
+ENSG00000154319	FAM167A	not_classified	not_relevant	non-driver	18.45	FL	0.82
+ENSG00000154328	NEIL2	medium_confidence	not_relevant	non-driver	46.04	FL	0.68
+ENSG00000154723	ATP5PF	not_classified	not_relevant	non-driver	19.39	MM	1
+ENSG00000154727	GABPA	low_confidence	not_relevant	non-driver	33.27	MM	1
+ENSG00000154978	VOPP1	medium_confidence	not_relevant	non-driver	59.64	DLBCL	0.55
+ENSG00000155189	AGPAT5	low_confidence	not_relevant	non-driver	29.42	FL	0.65
+ENSG00000155307	SAMSN1	low_confidence	not_relevant	non-driver	34.89	MM	1
+ENSG00000155313	USP25	low_confidence	not_relevant	non-driver	30.22	MM; MZL	
+ENSG00000155542	SETD9	medium_confidence	cancer_gene	non-driver	22.77	MM; pB-ALL ER	
+ENSG00000155545	MIER3	medium_confidence	not_relevant	non-driver	47.4	MM	0.53
+ENSG00000155660	PDIA4	medium_confidence	not_relevant	non-driver	41.55	pB-ALL 2	0.53
+ENSG00000155729	KCTD18	not_classified	not_relevant	non-driver	10.22	CLL	0.68
+ENSG00000155744	FAM126B	medium_confidence	cancer_gene	non-driver	30.42	CLL	0.77
+ENSG00000155749	FLACC1	medium_confidence	cancer_gene	non-driver	20.44	CLL	0.67
+ENSG00000155754	C2CD6	not_classified	not_relevant	non-driver	10.22	CLL	0.66
+ENSG00000155755	TMEM237	low_confidence	not_relevant	non-driver	29.42	CLL	0.67
+ENSG00000155875	SAXO1	not_classified	not_relevant	non-driver	11.39	MM	0.86
+ENSG00000155876	RRAGA	medium_confidence	cancer_gene	non-driver	37.99	MM	0.84
+ENSG00000155903	RASA2	high_confidence	cancer_gene	LoF	46.97	MM	0.74
+ENSG00000156384	SFR1	not_classified	not_relevant	non-driver	8.73	MM	1
+ENSG00000156787	TBC1D31	medium_confidence	not_relevant	non-driver	51.1	MZL	0.84
+ENSG00000156858	PRR14	high_confidence	not_relevant	LoF	49.96	MM	0.73
+ENSG00000156860	FBRS	not_classified	not_relevant	unknown	4.42	MM	0.63
+ENSG00000156970	BUB1B	high_confidence	cancer_gene	LoF	68.25	CLL; LYM	
+ENSG00000157450	RNF111	medium_confidence	cancer_gene	non-driver	37.87	CLL	0.73
+ENSG00000157470	FAM81A	low_confidence	not_relevant	non-driver	32.32	CLL	0.68
+ENSG00000157483	MYO1E	not_classified	not_relevant	non-driver	20.28	CLL	0.74
+ENSG00000157557	ETS2	high_confidence	cancer_gene	non-driver	50.16	pB-ALL; pB-ALL ER; pB-ALL HD	
+ENSG00000157764	BRAF	high_confidence	bloodcancer_gene	Act	87.5	B-ALL 2	0.61
+ENSG00000158062	UBXN11	high_confidence	cancer_gene	non-driver	56.42	MM	0.68
+ENSG00000158458	NRG2	medium_confidence	cancer_gene	non-driver	35.62	MM	0.59
+ENSG00000158497	HMHB1	medium_confidence	not_relevant	non-driver	45.55	MM	0.51
+ENSG00000158764	ITLN2	not_classified	not_relevant	non-driver	6.77	DLBCL	0.7
+ENSG00000158828	PINK1	not_classified	not_relevant	non-driver	18.74	CLL	0.7
+ENSG00000159111	MRPL10	not_classified	not_relevant	non-driver	11.53	HL	0.52
+ENSG00000159182	PRAC1	medium_confidence	not_relevant	non-driver	51.53	pB-ALL ER	1
+ENSG00000159184	HOXB13	high_confidence	cancer_gene	non-driver	78.08	pB-ALL ER	1
+ENSG00000159199	ATP5MC1	not_classified	not_relevant	non-driver	19.39	pB-ALL ER	0.95
+ENSG00000159202	UBE2Z	low_confidence	not_relevant	non-driver	32.86	pB-ALL ER	0.95
+ENSG00000159210	SNF8	low_confidence	not_relevant	non-driver	27.69	pB-ALL ER	0.96
+ENSG00000159217	IGF2BP1	medium_confidence	not_relevant	non-driver	61.1	pB-ALL ER	1
+ENSG00000159363	ATP13A2	not_classified	not_relevant	non-driver	9.27	B-ALL 2	0.83
+ENSG00000159753	CARMIL2	medium_confidence	not_relevant	non-driver	41.14	pB-ALL	0.69
+ENSG00000159761	C16orf86	not_classified	not_relevant	non-driver	0	pB-ALL	0.61
+ENSG00000160014	CALM3	not_classified	not_relevant	non-driver	18.14	pB-ALL HD	0.6
+ENSG00000160584	SIK3	low_confidence	not_relevant	non-driver	25.51	pB-ALL HD	0.55
+ENSG00000160683	CXCR5	high_confidence	bloodcancer_gene	non-driver	32.25	FL; LYM	
+ENSG00000161036	LRWD1	medium_confidence	not_relevant	non-driver	42.5	pB-ALL 2	0.54
+ENSG00000161249	DMKN	medium_confidence	not_relevant	non-driver	48.99	CLL	0.79
+ENSG00000161558	TMEM143	not_classified	not_relevant	non-driver	0	CLL; DLBCL	
+ENSG00000161610	HCRT	not_classified	not_relevant	non-driver	6.67	MM	0.61
+ENSG00000162396	PARS2	not_classified	not_relevant	non-driver	10	pB-ALL 2	0.57
+ENSG00000162413	KLHL21	medium_confidence	not_relevant	non-driver	35.55	pB-ALL ER	0.6
+ENSG00000162600	OMA1	low_confidence	not_relevant	non-driver	21.88	DLBCL	0.73
+ENSG00000162601	MYSM1	medium_confidence	not_relevant	non-driver	40.42	DLBCL	0.74
+ENSG00000162924	REL	high_confidence	bloodcancer_gene	Act	32.23	HL	0.97
+ENSG00000163053	SLC16A14	low_confidence	not_relevant	non-driver	33.68	CLL	0.95
+ENSG00000163312	HELQ	high_confidence	cancer_gene	non-driver	50.21	B-ALL 2	0.81
+ENSG00000163319	MRPS18C	medium_confidence	cancer_gene	non-driver	34.95	B-ALL 2	0.81
+ENSG00000163491	NEK10	high_confidence	cancer_gene	non-driver	55.83	CLL; LYM	
+ENSG00000163492	CCDC141	not_classified	not_relevant	unknown	14.21	B-ALL 2	0.51
+ENSG00000163508	EOMES	medium_confidence	not_relevant	non-driver	36.6	LYM	0.54
+ENSG00000163512	AZI2	low_confidence	not_relevant	non-driver	29.19	CLL; DLBCL; LYM	
+ENSG00000163535	SGO2	low_confidence	not_relevant	non-driver	30.47	CLL	0.68
+ENSG00000163584	RPL22L1	medium_confidence	not_relevant	non-driver	69.45	MM	0.52
+ENSG00000163606	CD200R1	low_confidence	not_relevant	non-driver	33.21	HL	0.78
+ENSG00000163902	RPN1	high_confidence	cancer_gene	fusion	38.2	FL	0.52
+ENSG00000164037	SLC9B1	not_classified	not_relevant	non-driver	9.38	LYM; MM	
+ENSG00000164038	SLC9B2	not_classified	not_relevant	non-driver	16.97	LYM; MM	
+ENSG00000164039	BDH2	low_confidence	not_relevant	non-driver	30.78	LYM	0.67
+ENSG00000164167	LSM6	not_classified	not_relevant	non-driver	3.53	FL	0.93
+ENSG00000164305	CASP3	high_confidence	bloodcancer_gene	non-driver	50.05	CLL	0.99
+ENSG00000164306	PRIMPOL	medium_confidence	not_relevant	non-driver	36.07	CLL	0.99
+ENSG00000164307	ERAP1	low_confidence	not_relevant	non-driver	27.17	HL	0.54
+ENSG00000164318	EGFLAM	low_confidence	not_relevant	non-driver	31.37	pB-ALL	0.67
+ENSG00000164362	TERT	high_confidence	bloodcancer_gene	ambiguous	21.13	CLL	0.98
+ENSG00000164451	CALHM4	not_classified	not_relevant	non-driver	0	MM	0.9
+ENSG00000164500	SPATA48	not_classified	not_relevant	non-driver	0	B-ALL 2; pB-ALL 2; pB-ALL; pB-ALL ER; pB-ALL HD	
+ENSG00000164649	CDCA7L	medium_confidence	not_relevant	non-driver	56.24	MM	0.78
+ENSG00000164663	USP49	medium_confidence	not_relevant	non-driver	55.83	MM	0.9
+ENSG00000165059	PRKACG	low_confidence	not_relevant	non-driver	28.25	MM	0.57
+ENSG00000165060	FXN	not_classified	not_relevant	non-driver	9.4	MM	0.59
+ENSG00000165309	ARMC3	low_confidence	not_relevant	non-driver	26.9	pB-ALL; pB-ALL HD	
+ENSG00000165389	SPTSSA	low_confidence	not_relevant	non-driver	24.8	MM	0.66
+ENSG00000165410	CFL2	low_confidence	not_relevant	non-driver	26.52	MM	0.68
+ENSG00000165501	LRR1	low_confidence	not_relevant	non-driver	27.93	HL	0.9
+ENSG00000165502	RPL36AL	not_classified	not_relevant	non-driver	5.61	HL	0.94
+ENSG00000165506	DNAAF2	not_classified	not_relevant	non-driver	3.53	HL	0.9
+ENSG00000165516	KLHDC2	medium_confidence	not_relevant	non-driver	47.41	HL	0.91
+ENSG00000165525	NEMF	medium_confidence	cancer_gene	non-driver	19.38	HL	0.96
+ENSG00000165527	ARF6	low_confidence	not_relevant	non-driver	26.49	HL	0.96
+ENSG00000165650	PDZD8	low_confidence	not_relevant	non-driver	22.76	LYM	0.59
+ENSG00000165660	ABRAXAS2	medium_confidence	not_relevant	non-driver	51.56	MM; pB-ALL; pB-ALL HD	
+ENSG00000165972	CCDC38	not_classified	not_relevant	non-driver	8.33	pB-ALL	0.93
+ENSG00000166090	IL25	not_classified	not_relevant	non-driver	16.74	pB-ALL; pB-ALL HD	
+ENSG00000166091	CMTM5	medium_confidence	not_relevant	non-driver	70.45	pB-ALL; pB-ALL HD	
+ENSG00000166793	YPEL4	low_confidence	not_relevant	non-driver	27.96	pB-ALL HD	0.55
+ENSG00000166923	GREM1	medium_confidence	cancer_gene	non-driver	36.78	LYM	0.53
+ENSG00000167080	B4GALNT2	low_confidence	not_relevant	non-driver	26.85	pB-ALL ER	0.95
+ENSG00000167083	GNGT2	low_confidence	not_relevant	non-driver	23.17	pB-ALL ER	0.95
+ENSG00000167085	PHB	medium_confidence	cancer_gene	non-driver	8.29	pB-ALL ER	0.95
+ENSG00000167264	DUS2	low_confidence	not_relevant	non-driver	29.76	pB-ALL	0.57
+ENSG00000167315	ACAA2	not_classified	not_relevant	non-driver	17.58	LYM	0.58
+ENSG00000167323	STIM1	medium_confidence	not_relevant	non-driver	45.38	MM	0.59
+ENSG00000167325	RRM1	high_confidence	cancer_gene	non-driver	63.94	MM	0.67
+ENSG00000167394	ZNF668	medium_confidence	not_relevant	non-driver	53.32	MM	0.66
+ENSG00000167491	GATAD2A	medium_confidence	cancer_gene	non-driver	38.2	MM	0.6
+ENSG00000167914	GSDMA	medium_confidence	not_relevant	non-driver	61.5	MM	0.58
+ENSG00000167986	DDB1	medium_confidence	cancer_gene	non-driver	42.01	pB-ALL 2	0.52
+ENSG00000167987	VPS37C	low_confidence	not_relevant	non-driver	32.19	pB-ALL 2	0.52
+ENSG00000168026	TTC21A	low_confidence	not_relevant	non-driver	31.1	CLL	0.97
+ENSG00000168028	RPSA	low_confidence	not_relevant	non-driver	27.22	CLL	0.89
+ENSG00000168038	ULK4	low_confidence	not_relevant	non-driver	24.93	MM	0.54
+ENSG00000168152	THAP9	medium_confidence	not_relevant	non-driver	45.12	B-ALL 2	0.94
+ENSG00000168256	NKIRAS2	medium_confidence	not_relevant	non-driver	46.34	MM	0.57
+ENSG00000168259	DNAJC7	not_classified	not_relevant	non-driver	17.44	MM	0.57
+ENSG00000168282	MGAT2	not_classified	not_relevant	non-driver	10.25	HL	0.94
+ENSG00000168300	PCMTD1	high_confidence	cancer_gene	LoF	32.76	MM	0.63
+ENSG00000168310	IRF2	medium_confidence	cancer_gene	non-driver	39.95	CLL	0.9
+ENSG00000168329	CX3CR1	low_confidence	not_relevant	non-driver	22.55	CLL	0.96
+ENSG00000168334	XIRP1	not_classified	not_relevant	non-driver	14.85	CLL	0.91
+ENSG00000168356	SCN11A	medium_confidence	cancer_gene	non-driver	7.89	CLL	0.96
+ENSG00000168385	SEPTIN2	medium_confidence	cancer_gene	non-driver	29.17	CLL	0.88
+ENSG00000168395	ING5	medium_confidence	not_relevant	non-driver	75.5	CLL	0.86
+ENSG00000168411	RFWD3	high_confidence	cancer_gene	non-driver	69.23	MM	0.87
+ENSG00000168769	TET2	high_confidence	bloodcancer_gene	LoF	68.43	MM	0.88
+ENSG00000168944	CEP120	not_classified	not_relevant	non-driver	17.77	MM	0.77
+ENSG00000168970	JMJD7-PLA2G4B	low_confidence	not_relevant	unknown	34.16	MM	0.53
+ENSG00000168994	PXDC1	low_confidence	not_relevant	non-driver	22.77	DLBCL	0.59
+ENSG00000169194	IL13	high_confidence	bloodcancer_gene	non-driver	24.24	HL	1
+ENSG00000169221	TBC1D10B	low_confidence	not_relevant	non-driver	31.1	MM	0.65
+ENSG00000169442	CD52	high_confidence	bloodcancer_gene	non-driver	66.24	MM	0.68
+ENSG00000169660	HEXD	not_classified	not_relevant	non-driver	0	FL	0.83
+ENSG00000169684	CHRNA5	medium_confidence	cancer_gene	non-driver	34.14	CLL	0.63
+ENSG00000169710	FASN	medium_confidence	not_relevant	non-driver	37.72	FL	0.64
+ENSG00000169738	DCXR	low_confidence	not_relevant	non-driver	25.66	FL	0.64
+ENSG00000169951	ZNF764	not_classified	not_relevant	non-driver	0	MM	0.61
+ENSG00000169992	NLGN2	not_classified	not_relevant	non-driver	11.72	MM	0.71
+ENSG00000170260	ZNF212	not_classified	not_relevant	non-driver	12.5	MZL	0.6
+ENSG00000170265	ZNF282	medium_confidence	not_relevant	non-driver	45.64	MZL	0.68
+ENSG00000170291	ELP5	low_confidence	not_relevant	non-driver	23.71	MM	0.75
+ENSG00000170689	HOXB9	medium_confidence	not_relevant	non-driver	59.14	pB-ALL ER	0.95
+ENSG00000170703	TTLL6	not_classified	not_relevant	non-driver	19.8	pB-ALL ER	0.95
+ENSG00000170777	TPD52L3	not_classified	not_relevant	non-driver	0	LYM	0.73
+ENSG00000171132	PRKCE	medium_confidence	cancer_gene	non-driver	27.81	MM	0.95
+ENSG00000171262	FAM98B	low_confidence	not_relevant	non-driver	22.45	MM	0.86
+ENSG00000171444	MCC	medium_confidence	cancer_gene	non-driver	30.75	LYM	0.58
+ENSG00000171604	CXXC5	medium_confidence	not_relevant	non-driver	39.36	MM	0.95
+ENSG00000171680	PLEKHG5	low_confidence	not_relevant	non-driver	25.37	pB-ALL ER	0.8
+ENSG00000171695	LKAAEAR1	not_classified	not_relevant	non-driver	0	MM	0.58
+ENSG00000171703	TCEA2	medium_confidence	not_relevant	non-driver	42.06	MM	0.61
+ENSG00000171791	BCL2	high_confidence	bloodcancer_gene	Act	63.46	CLL; FL; pB-ALL ER; pB-ALL HD	
+ENSG00000171848	RRM2	high_confidence	cancer_gene	non-driver	63.74	pB-ALL HD	0.58
+ENSG00000171940	ZNF217	high_confidence	cancer_gene	non-driver	80.02	LYM	0.75
+ENSG00000171956	FOXB1	not_classified	not_relevant	non-driver	13.77	LYM	0.8
+ENSG00000172057	ORMDL3	medium_confidence	cancer_gene	non-driver	21.01	MM	0.79
+ENSG00000172183	ISG20	medium_confidence	not_relevant	non-driver	37.31	pB-ALL ER	0.51
+ENSG00000172269	DPAGT1	low_confidence	not_relevant	non-driver	29.45	LYM	0.5
+ENSG00000172361	CFAP53	not_classified	not_relevant	non-driver	20.12	LYM	0.59
+ENSG00000172375	C2CD2L	not_classified	not_relevant	non-driver	17.63	LYM	0.5
+ENSG00000172409	CLP1	medium_confidence	cancer_gene	non-driver	15.62	pB-ALL HD	0.55
+ENSG00000172456	FGGY	low_confidence	not_relevant	non-driver	24.65	DLBCL; pB-ALL ER	
+ENSG00000172575	RASGRP1	medium_confidence	not_relevant	non-driver	40.84	MM	0.88
+ENSG00000172845	SP3	not_classified	not_relevant	non-driver	14.91	MM	0.93
+ENSG00000172890	NADSYN1	low_confidence	not_relevant	non-driver	24.74	MZL	0.7
+ENSG00000173083	HPSE	high_confidence	cancer_gene	non-driver	56.64	B-ALL 2	0.7
+ENSG00000173085	COQ2	not_classified	not_relevant	non-driver	7.37	B-ALL 2	0.67
+ENSG00000173214	MFSD4B	not_classified	not_relevant	non-driver	0	pB-ALL	0.52
+ENSG00000173226	IQCB1	low_confidence	not_relevant	non-driver	25.25	DLBCL; FL	
+ENSG00000173406	DAB1	not_classified	not_relevant	non-driver	12.42	DLBCL	0.73
+ENSG00000173482	PTPRM	medium_confidence	cancer_gene	non-driver	39.93	HL	0.5
+ENSG00000173559	NABP1	medium_confidence	not_relevant	non-driver	42.23	B-ALL 2	0.78
+ENSG00000173581	CCDC106	medium_confidence	not_relevant	non-driver	60.85	LYM	0.83
+ENSG00000173626	TRAPPC3L	not_classified	not_relevant	non-driver	0	MM	0.54
+ENSG00000173673	HES3	low_confidence	not_relevant	non-driver	28.09	pB-ALL ER	0.51
+ENSG00000173692	PSMD1	high_confidence	cancer_gene	non-driver	57.96	CLL	0.55
+ENSG00000173786	CNP	not_classified	not_relevant	non-driver	8.5	MM	0.58
+ENSG00000173838	MARCHF10	not_classified	not_relevant	non-driver	0	FL	0.66
+ENSG00000173889	PHC3	medium_confidence	cancer_gene	non-driver	42.39	MM	0.98
+ENSG00000173890	GPR160	medium_confidence	not_relevant	non-driver	41.58	CLL; MM	
+ENSG00000174059	CD34	high_confidence	cancer_gene	non-driver	55.37	MM	0.6
+ENSG00000174373	RALGAPA1	low_confidence	not_relevant	non-driver	22.81	MM	0.72
+ENSG00000175048	ZDHHC14	low_confidence	not_relevant	non-driver	32.76	FL	0.59
+ENSG00000175087	PDIK1L	medium_confidence	not_relevant	non-driver	41.94	MM	0.6
+ENSG00000175354	PTPN2	medium_confidence	not_relevant	non-driver	41.42	MM	0.61
+ENSG00000175426	PCSK1	not_classified	not_relevant	non-driver	16.04	MM	0.59
+ENSG00000175662	TOM1L2	low_confidence	not_relevant	non-driver	26.21	pB-ALL ER	0.54
+ENSG00000176083	ZNF683	medium_confidence	not_relevant	non-driver	49.24	MM	0.83
+ENSG00000176092	CRYBG2	not_classified	not_relevant	unknown	0	MM	0.71
+ENSG00000176155	CCDC57	low_confidence	not_relevant	unknown	33.1	FL	0.64
+ENSG00000176225	RTTN	not_classified	not_relevant	non-driver	10.92	LYM	0.63
+ENSG00000176302	FOXR1	medium_confidence	cancer_gene	non-driver	40.8	LYM	0.86
+ENSG00000176399	DMRTA1	low_confidence	not_relevant	non-driver	27.25	pB-ALL; pB-ALL HD	
+ENSG00000176853	FAM91A1	low_confidence	not_relevant	non-driver	30.04	MZL	0.78
+ENSG00000176871	WSB2	medium_confidence	not_relevant	non-driver	35.61	B-ALL 2	0.99
+ENSG00000177105	RHOG	not_classified	not_relevant	non-driver	20.53	MM	0.6
+ENSG00000177311	ZBTB38	medium_confidence	cancer_gene	non-driver	32.45	MM	0.68
+ENSG00000177469	CAVIN1	low_confidence	not_relevant	non-driver	31.88	MM	0.77
+ENSG00000177558	FAM187B	not_classified	not_relevant	non-driver	12.3	CLL	0.79
+ENSG00000177576	C18orf32	not_classified	not_relevant	non-driver	11.39	LYM	0.57
+ENSG00000177606	JUN	high_confidence	cancer_gene	Act	16.19	DLBCL; pB-ALL ER	
+ENSG00000177989	ODF3B	low_confidence	not_relevant	non-driver	25.85	CLL	0.84
+ENSG00000178171	AMER3	medium_confidence	not_relevant	non-driver	44.64	pB-ALL 2	0.92
+ENSG00000178175	ZNF366	medium_confidence	not_relevant	non-driver	37.5	pB-ALL	0.57
+ENSG00000178202	POGLUT3	medium_confidence	cancer_gene	non-driver	36.05	MM	0.51
+ENSG00000178445	GLDC	low_confidence	not_relevant	non-driver	28.66	LYM	0.74
+ENSG00000178764	ZHX2	medium_confidence	not_relevant	non-driver	51.74	MZL	0.84
+ENSG00000178927	CYBC1	not_classified	not_relevant	non-driver	14.71	FL	0.86
+ENSG00000179051	RCC2	high_confidence	cancer_gene	non-driver	57.59	B-ALL 2	0.82
+ENSG00000179593	ALOX15B	low_confidence	not_relevant	non-driver	34.93	LYM	0.62
+ENSG00000179709	NLRP8	low_confidence	not_relevant	non-driver	30.66	LYM	0.77
+ENSG00000179833	SERTAD2	low_confidence	not_relevant	non-driver	30.48	CLL	0.91
+ENSG00000179914	ITLN1	medium_confidence	cancer_gene	non-driver	23.72	DLBCL	0.66
+ENSG00000179918	SEPHS2	medium_confidence	not_relevant	non-driver	35.17	MM	0.67
+ENSG00000179958	DCTPP1	medium_confidence	not_relevant	non-driver	64	MM	0.69
+ENSG00000179965	ZNF771	not_classified	not_relevant	non-driver	0	MM	0.61
+ENSG00000180035	ZNF48	not_classified	not_relevant	non-driver	20.44	MM	0.6
+ENSG00000180096	SEPTIN1	not_classified	not_relevant	non-driver	20.97	MM	0.61
+ENSG00000180176	TH	medium_confidence	cancer_gene	non-driver	27.25	CLL	0.83
+ENSG00000180209	MYLPF	not_classified	not_relevant	non-driver	7.37	MM	0.65
+ENSG00000180488	MIGA1	not_classified	not_relevant	non-driver	15.14	CLL	0.9
+ENSG00000180998	GPR137C	low_confidence	not_relevant	non-driver	24.6	B-ALL 2	0.74
+ENSG00000181026	AEN	not_classified	not_relevant	non-driver	15.67	pB-ALL ER	0.65
+ENSG00000181035	SLC25A42	not_classified	not_relevant	non-driver	20.6	FL; MM	
+ENSG00000181396	OGFOD3	not_classified	not_relevant	non-driver	20.44	FL	0.64
+ENSG00000181649	PHLDA2	low_confidence	not_relevant	non-driver	32.55	CLL	0.8
+ENSG00000181778	TMEM252	low_confidence	not_relevant	non-driver	22.82	MM	0.54
+ENSG00000181856	SLC2A4	not_classified	not_relevant	non-driver	9.59	MM	0.72
+ENSG00000181885	CLDN7	medium_confidence	not_relevant	non-driver	60.21	MM	0.74
+ENSG00000181991	MRPS11	low_confidence	not_relevant	non-driver	28.21	pB-ALL ER	0.71
+ENSG00000182095	TNRC18	medium_confidence	cancer_gene	non-driver	35.84	MM	0.82
+ENSG00000182240	BACE2	not_classified	not_relevant	non-driver	11.62	pB-ALL HD	0.72
+ENSG00000182752	PAPPA	not_classified	not_relevant	non-driver	17.78	pB-ALL ER	0.58
+ENSG00000182771	GRID1	not_classified	not_relevant	non-driver	15.54	B-ALL 2	0.51
+ENSG00000183340	JRKL	not_classified	not_relevant	non-driver	9.2	MM	0.72
+ENSG00000183527	PSMG1	low_confidence	not_relevant	non-driver	31.58	pB-ALL; pB-ALL HD	
+ENSG00000183665	TRMT12	medium_confidence	not_relevant	non-driver	62.91	MZL	0.77
+ENSG00000183741	CBX6	medium_confidence	not_relevant	non-driver	56.06	MM	1
+ENSG00000184281	TSSC4	medium_confidence	not_relevant	non-driver	55.17	CLL	0.83
+ENSG00000184292	TACSTD2	high_confidence	cancer_gene	non-driver	85.18	DLBCL	0.72
+ENSG00000184378	ACTRT3	medium_confidence	cancer_gene	non-driver	18.39	CLL; MM	
+ENSG00000184640	SEPTIN9	high_confidence	cancer_gene	Act	70.61	pB-ALL; pB-ALL ER	
+ENSG00000184924	PTRHD1	not_classified	not_relevant	non-driver	0	DLBCL	0.95
+ENSG00000184937	WT1	high_confidence	bloodcancer_gene	ambiguous	65.93	pB-ALL 2	0.61
+ENSG00000185052	SLC24A3	low_confidence	not_relevant	non-driver	24.71	CLL	0.78
+ENSG00000185477	GPRIN3	not_classified	not_relevant	non-driver	18.75	B-ALL 2	0.91
+ENSG00000185811	IKZF1	high_confidence	cancer_gene	ambiguous	75.48	B-ALL 2; pB-ALL 2; pB-ALL; pB-ALL ER; pB-ALL HD	
+ENSG00000185947	ZNF267	medium_confidence	not_relevant	non-driver	38.01	MM	0.61
+ENSG00000186047	DLEU7	high_confidence	cancer_gene	non-driver	60.49	MM	0.8
+ENSG00000186153	WWOX	high_confidence	cancer_gene	non-driver	78.66	pB-ALL ER	0.55
+ENSG00000186166	CENATAC	not_classified	not_relevant	non-driver	12.3	LYM	0.51
+ENSG00000186174	BCL9L	high_confidence	cancer_gene	ambiguous	73.32	LYM	0.75
+ENSG00000187118	CMC1	not_classified	not_relevant	non-driver	8.2	CLL; DLBCL; FL; LYM	
+ENSG00000187189	TSPYL4	low_confidence	not_relevant	non-driver	24.04	MM	0.56
+ENSG00000187231	SESTD1	not_classified	not_relevant	non-driver	16.29	B-ALL 2	0.72
+ENSG00000187474	FPR3	low_confidence	not_relevant	non-driver	28.22	pB-ALL HD	0.53
+ENSG00000187664	HAPLN4	not_classified	not_relevant	non-driver	13.8	MM	0.6
+ENSG00000187714	SLC18A3	not_classified	not_relevant	non-driver	7.79	LYM	0.76
+ENSG00000187866	PABIR1	medium_confidence	not_relevant	non-driver	53.24	MM	0.56
+ENSG00000187889	FYB2	not_classified	not_relevant	non-driver	12.3	DLBCL	0.65
+ENSG00000188283	ZNF383	low_confidence	not_relevant	non-driver	24.6	LYM	0.51
+ENSG00000188508	KRTDAP	medium_confidence	not_relevant	non-driver	48.88	CLL	0.73
+ENSG00000188596	CFAP54	not_classified	not_relevant	unknown	5.27	pB-ALL	0.98
+ENSG00000188677	PARVB	low_confidence	not_relevant	non-driver	30.29	FL	0.99
+ENSG00000188820	CALHM6	low_confidence	not_relevant	non-driver	22.22	MM	0.66
+ENSG00000188895	MSL1	not_classified	not_relevant	non-driver	13.26	pB-ALL; pB-ALL ER	
+ENSG00000189001	SBSN	medium_confidence	not_relevant	non-driver	35.61	CLL	0.62
+ENSG00000189241	TSPYL1	not_classified	not_relevant	non-driver	16.29	MM	0.53
+ENSG00000189308	LIN54	medium_confidence	not_relevant	non-driver	60.49	B-ALL 2	0.71
+ENSG00000189319	FAM53B	medium_confidence	not_relevant	non-driver	36.78	MM; pB-ALL; pB-ALL HD	
+ENSG00000196091	MYBPC1	not_classified	not_relevant	non-driver	17.84	MZL	0.61
+ENSG00000196290	NIF3L1	not_classified	not_relevant	non-driver	7.61	CLL	0.99
+ENSG00000196329	GIMAP5	low_confidence	not_relevant	non-driver	21.33	pB-ALL HD	0.9
+ENSG00000196576	PLXNB2	medium_confidence	cancer_gene	non-driver	35.36	CLL	0.87
+ENSG00000196605	ZNF846	not_classified	not_relevant	non-driver		pB-ALL HD	0.53
+ENSG00000196781	TLE1	medium_confidence	not_relevant	non-driver	64.7	pB-ALL HD	0.98
+ENSG00000196839	ADA	not_classified	not_relevant	non-driver	15.24	pB-ALL; pB-ALL HD	
+ENSG00000196932	TMEM26	low_confidence	not_relevant	non-driver	22.29	pB-ALL; pB-ALL HD	
+ENSG00000197114	ZGPAT	medium_confidence	not_relevant	non-driver	39.81	MM; pB-ALL ER	
+ENSG00000197157	SND1	high_confidence	bloodcancer_gene	Act	53.03	MZL	0.55
+ENSG00000197162	ZNF785	not_classified	not_relevant	non-driver	0	MM	0.61
+ENSG00000197245	FAM110D	not_classified	not_relevant	non-driver	0	MM	0.57
+ENSG00000197323	TRIM33	high_confidence	cancer_gene	ambiguous	56.36	pB-ALL 2	0.6
+ENSG00000197563	PIGN	not_classified	not_relevant	non-driver	7.35	pB-ALL ER	0.56
+ENSG00000197616	MYH6	not_classified	not_relevant	non-driver	10.01	pB-ALL; pB-ALL HD	
+ENSG00000197713	RPE	not_classified	not_relevant	non-driver	7.73	pB-ALL ER	0.51
+ENSG00000197746	PSAP	medium_confidence	cancer_gene	non-driver	20.95	MZL	0.64
+ENSG00000197748	CFAP43	not_classified	not_relevant	non-driver	5.13	MM	0.99
+ENSG00000197776	KLHDC1	medium_confidence	not_relevant	non-driver	40.88	HL	0.9
+ENSG00000197930	ERO1A	medium_confidence	cancer_gene	non-driver	41.15	B-ALL 2	0.64
+ENSG00000197971	MBP	not_classified	not_relevant	non-driver	10.04	DLBCL; pB-ALL ER	
+ENSG00000198176	TFDP1	high_confidence	cancer_gene	non-driver	59.23	MM	0.64
+ENSG00000198246	SLC29A3	low_confidence	not_relevant	non-driver	22.03	MZL	0.69
+ENSG00000198252	STYX	low_confidence	not_relevant	non-driver	26.72	B-ALL 2	0.69
+ENSG00000198513	ATL1	not_classified	not_relevant	non-driver	12.38	HL	0.92
+ENSG00000198553	KCNRG	medium_confidence	cancer_gene	non-driver	44.13	CLL; MM	
+ENSG00000198576	ARC	medium_confidence	cancer_gene	non-driver	17.58	MZL	0.66
+ENSG00000198604	BAZ1A	medium_confidence	cancer_gene	non-driver	33.16	MM	0.78
+ENSG00000198642	KLHL9	low_confidence	not_relevant	non-driver	34.59	CLL; MM	
+ENSG00000198768	APCDD1L	medium_confidence	not_relevant	non-driver	69.05	FL	0.95
+ENSG00000198821	CD247	low_confidence	not_relevant	non-driver	34.18	MZL	0.59
+ENSG00000198911	SREBF2	low_confidence	not_relevant	non-driver	24.74	pB-ALL ER	0.56
+ENSG00000198945	L3MBTL3	medium_confidence	cancer_gene	non-driver	36.64	MZL	0.84
+ENSG00000203756	TMEM244	medium_confidence	not_relevant	non-driver	51.1	MZL	0.58
+ENSG00000203896	LIME1	medium_confidence	not_relevant	non-driver	42.35	MM; pB-ALL ER	
+ENSG00000204913	LRRC3C	low_confidence	not_relevant	non-driver	34.16	MM	0.78
+ENSG00000204946	ZNF783	not_classified	not_relevant	non-driver	0	LYM	0.53
+ENSG00000205078	SYCE1L	not_classified	not_relevant	non-driver	0	pB-ALL 2	0.57
+ENSG00000205302	SNX2	not_classified	not_relevant	non-driver	20.97	MM; MZL	
+ENSG00000205544	TMEM256	low_confidence	not_relevant	non-driver	34.16	MM	0.7
+ENSG00000205581	HMGN1	low_confidence	not_relevant	non-driver	34.03	pB-ALL; pB-ALL HD	
+ENSG00000205884	DEFB136	not_classified	not_relevant	non-driver	0	FL	0.66
+ENSG00000206531	CD200R1L	not_classified	not_relevant	non-driver	11.39	HL	0.75
+ENSG00000206559	ZCWPW2	not_classified	not_relevant	non-driver	18.39	CLL; DLBCL; LYM	
+ENSG00000213203	GIMAP1	medium_confidence	not_relevant	non-driver	41.08	pB-ALL HD	0.92
+ENSG00000213281	NRAS	high_confidence	bloodcancer_gene	Act	82.48	pB-ALL 2	0.61
+ENSG00000213741	RPS29	low_confidence	not_relevant	non-driver	30.61	HL	0.91
+ENSG00000213859	KCTD11	medium_confidence	not_relevant	non-driver	53.84	MM	0.74
+ENSG00000213996	TM6SF2	medium_confidence	cancer_gene	non-driver	22.95	MM	0.6
+ENSG00000213999	MEF2B	high_confidence	cancer_gene	LoF	48.71	FL; MM	
+ENSG00000215041	NEURL4	medium_confidence	not_relevant	non-driver	35.26	MM	0.7
+ENSG00000215277	RNF212B	not_classified	not_relevant	non-driver	5.61	pB-ALL; pB-ALL HD	
+ENSG00000215472	RPL17-C18orf32	not_classified	not_relevant	unknown	12.3	LYM	0.58
+ENSG00000215712	TMEM242	low_confidence	not_relevant	non-driver	22.77	FL	0.64
+ENSG00000217236	SP9	not_classified	not_relevant	non-driver	8.42	MM	0.85
+ENSG00000217442	SYCE3	not_classified	not_relevant	non-driver	8.05	CLL	0.84
+ENSG00000218891	ZNF579	medium_confidence	not_relevant	non-driver	36.91	MM	0.66
+ENSG00000219626	FAM228B	not_classified	not_relevant	unknown	0	MZL	0.69
+ENSG00000229637	PRAC2	medium_confidence	not_relevant	unknown	41.67	pB-ALL ER	1
+ENSG00000229809	ZNF688	not_classified	not_relevant	non-driver	12.5	MM	0.61
+ENSG00000230778	ANKRD63	not_classified	not_relevant	unknown	0	CLL; LYM	
+ENSG00000232838	PET117	not_classified	not_relevant	non-driver	16.67	CLL	0.8
+ENSG00000240344	PPIL3	medium_confidence	not_relevant	non-driver	40.8	CLL	0.99
+ENSG00000240505	TNFRSF13B	medium_confidence	not_relevant	non-driver	55.78	MM	1
+ENSG00000243789	JMJD7	medium_confidence	not_relevant	non-driver	45.84	MM	0.53
+ENSG00000249115	HAUS5	medium_confidence	not_relevant	non-driver	45.55	CLL	0.53
+ENSG00000253958	CLDN23	medium_confidence	not_relevant	non-driver	46.18	pB-ALL ER	0.51
+ENSG00000254413	CHKB-CPT1B	not_classified	not_relevant	unknown	12.3	CLL	0.83
+ENSG00000254827	SLC22A18AS	medium_confidence	not_relevant	unknown	41.94	CLL	0.99
+ENSG00000254901	BORCS8	not_classified	not_relevant	non-driver	0	FL; MM	
+ENSG00000257704	INAFM1	not_classified	not_relevant	non-driver	0	pB-ALL HD	0.8
+ENSG00000258102	MAP1LC3B2	medium_confidence	not_relevant	unknown	39.29	pB-ALL	0.58
+ENSG00000259494	MRPL46	not_classified	not_relevant	non-driver	16.67	pB-ALL ER	0.71
+ENSG00000260027	HOXB7	medium_confidence	not_relevant	non-driver	55.61	pB-ALL ER	0.96
+ENSG00000262302	ENSG00000262302	not_classified	unknown	unknown		MM	0.74
+ENSG00000262481	TMEM256-PLSCR3	not_classified	not_relevant	unknown		MM	0.7
+ENSG00000264545	ENSG00000264545	not_classified	unknown	unknown		CLL; MM; pB-ALL; pB-ALL ER; pB-ALL HD	
+ENSG00000265681	RPL17	medium_confidence	cancer_gene	non-driver	19.33	LYM	0.59
+ENSG00000266074	BAHCC1	medium_confidence	not_relevant	unknown	42.31	pB-ALL ER	0.75
+ENSG00000272899	ATP6V1FNB	not_classified	not_relevant	unknown	0	pB-ALL ER	0.61
+ENSG00000273047	ENSG00000273047	not_classified	unknown	unknown		MM; pB-ALL ER	
+ENSG00000273154	ENSG00000273154	not_classified	unknown	unknown		MM; pB-ALL ER	
+ENSG00000275342	PRAG1	medium_confidence	not_relevant	unknown	40.64	pB-ALL ER	0.51
+ENSG00000281887	GIMAP1-GIMAP5	not_classified	not_relevant	unknown	0	pB-ALL HD	0.92
+ENSG00000283563	ENSG00000283563	not_classified	unknown	unknown		CLL; DLBCL; LYM	
+ENSG00000283782	ENSG00000283782	not_classified	unknown	unknown		pB-ALL HD	0.96
+ENSG00000284194	SCO2	not_classified	not_relevant	non-driver	12.19	CLL; MM	
+ENSG00000284638	ENSG00000284638	not_classified	not_relevant	unknown		MM	0.98
+ENSG00000285043	ENSG00000285043	not_classified	not_relevant	unknown		MM	0.61
+ENSG00000285053	TBCE	not_classified	unknown	unknown	15.64	MM	0.51
+ENSG00000285130	ENSG00000285130	not_classified	unknown	unknown		MM	0.59
+ENSG00000285253	ENSG00000285253	not_classified	unknown	unknown		CLL	0.73
+ENSG00000285283	ENSG00000285283	not_classified	unknown	unknown		pB-ALL 2; pB-ALL ER	
+ENSG00000285526	ENSG00000285526	not_classified	unknown	unknown		CLL	0.67
+ENSG00000285938	ENSG00000285938	not_classified	not_relevant	unknown		CLL; FL; LYM	
+ENSG00000287363	GUCA1ANB	not_classified	not_relevant	unknown		MM	0.91
+ENSG00000288636	ENSG00000288636	not_classified	unknown	unknown		B-ALL 2	0.82
+ENSG00000288721	ENSG00000288721	not_classified	unknown	unknown		MM	0.92
