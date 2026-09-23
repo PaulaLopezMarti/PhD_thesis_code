@@ -5,9 +5,10 @@ editor_options:
   chunk_output_type: inline
 ---
 
-# Chapter 3: Epigenetic fine-mapping
+# Epi-multiCOGS
 
-Here I present the code used for the epigenetic and normal fine-mapping and their comparison.
+Here I present the code of epi-multiCOGS used for the thesis.
+Specifically, this part corresponds to the functional fine-mapping.
 
 ------------------------------------------------------------------------
 
@@ -639,7 +640,7 @@ These scripts generate two main QC reports:
     Results are stratified by GWAS p-value thresholds.
 
     | Trait | pval_group | total_LDblocks | Lambda \> 0.4 | No converge | Not CS | CV5_has_CS | Good CV5 fine-mapping | Bad CV5 fine-mapping |
-    |-------|----------|--------|--------|--------|--------|--------|--------|--------|
+    |--------|--------|--------|--------|--------|--------|--------|--------|--------|
     | LYM | \<5e-8 | 3 | 1 | 0 | 0 | 2 | 2 | 0 |
     | LYM | 1e-6 - 5e-8 | 12 | 0 | 0 | 7 | 5 | 4 | 1 |
     | LYM | \>1e-6 | 102 | 2 | 0 | 98 | 2 | 2 | 0 |
