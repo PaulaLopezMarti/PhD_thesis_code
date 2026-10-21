@@ -7,25 +7,48 @@ editor_options:
 
 # Epi-multiCOGS
 
-Here I present the code of epi-multiCOGS used for the thesis.
-Specifically, this part corresponds to the functional fine-mapping.
+Epi-multiCOGS is an integrative computational framework that combines GWAS summary statistics with epigenetic and chromatin conformation data in order to improve the interpretation of non-coding genetic associations.
+
+It pursues two complementary goals:
+
+1.  Identification of candidate causal variants within GWAS loci.
+
+2.  Prioritization of candidate causal genes in a disease-relevant cellular context.
+
+The framework consists of two sequential analytical stages.
+The first stage focuses on variant prioritization through functionally informed multivariate fine-mapping.
+Starting from GWAS summary statistics, functional genomic annotations from disease-relevant cell types are incorporated to estimate variant-level prior causal probabilities.
+These priors are then integrated into a statistical fine-mapping model to refine association signals and identify a reduced set of candidate causal variants.
+The second stage focuses on the biological interpretation of the prioritized variants.
+Fine-mapping results are integrated with PCHi-C interactions, promoter annotations and coding sequence information to prioritize the genes most likely affected by candidate causal variants.
+
+![](images/Fig01_EpimultiCOGS_scheme-01.png)
+
+The implementation of these analytical steps relies on the integration of well-established computational methods.
+On the one hand, functional fine-mapping is performed using [PolyFun](https://github.com/omerwe/polyfun) and [SusieR](https://stephenslab.github.io/susieR/), which are used to estimate the functionally informed prior probabilities and identify candidate candidate causal variants, respectively.
+
+On the other hand, gene prioritization is carried out using the [multiCOGS](https://github.com/FunctionalGeneControl/multiCOGS) algorithm.
+Together, these approaches enable the systematic integration of genetic association, epigenetic regulation, and chromatin architecture to infer the molecular mechanisms underlying disease susceptibility.
+
+The computational workflow described here builds on the methods, scripts, and recommendations provided by the developers of PolyFun, SuSiER, and multiCOGS.
+The following sections document their implementation in our analysis, including data preparation, parameter settings, quality-control procedures, and the scripts used at each stage.
+For further methodological details, please refer to the official documentation and repositories.
 
 ------------------------------------------------------------------------
 
 ## Software requirements
 
--   plink 2.0
--   plink 1.9 *#check if all can be done in one version of plink*
--   [PolyFun](https://github.com/omerwe/polyfun)
--   [multiCOGS](https://github.com/FunctionalGeneControl/multiCOGS)
--   R and R packages:
-    -   [SusieR](https://stephenslab.github.io/susieR/) (0.14.2)
-    -   [bigsnpr](https://github.com/privefl/bigsnpr): To match SNPs with reference panel
-    -   [arrow](https://arrow.apache.org/docs/r/): To handle parquet file format
-    -   data.table
-    -   GenomicRanges
-    -   Rfast
-    -   cowplot / patchwork
+- [PLINK](https://www.cog-genomics.org/plink/2.0/) (1.9 & 2.0) *#check if all can be done in one version of plink*
+- [PolyFun](https://github.com/omerwe/polyfun)
+- [multiCOGS](https://github.com/FunctionalGeneControl/multiCOGS)
+- R and R packages:
+  - [SusieR](https://stephenslab.github.io/susieR/) (0.14.2)
+  - [bigsnpr](https://github.com/privefl/bigsnpr): To match SNPs with reference panel
+  - [arrow](https://arrow.apache.org/docs/r/): To handle parquet file format
+  - [data.table](https://r-datatable.com/)
+  - [GenomicRanges](https://doi.org/10.18129/B9.bioc.GenomicRanges)
+  - [Rfast](https://doi.org/10.32614/CRAN.package.Rfast)
+  - cowplot / patchwork
 
 ------------------------------------------------------------------------
 
@@ -33,45 +56,67 @@ Specifically, this part corresponds to the functional fine-mapping.
 
 1.  Data preparation
 
-2.  Compute prior causal probabilities using PolyFUN
+2.  Functional fine-mapping
 
-    1.  Create your own annotation files
+    1.  Compute prior causal probabilities using PolyFUN
 
-    2.  Compute LD-scores for these annotations
+        1.  Create your own annotation files
 
-    3.  Match GWAS summary statistics to the reference panel
+        2.  Compute LD-scores for these annotations
 
-    4.  Munge summary statistics
+        3.  Match GWAS summary statistics to the reference panel
 
-    5.  Run PolyFun using an L2-regularized extension of S-LDSC
+        4.  Munge summary statistics
 
-3.  Fine-mapping with SusieR
+        5.  Run PolyFun using an L2-regularized extension of S-LDSC
 
-    1.  Extract LD blocks with promising SNPs to perform fine-mapping
+    2.  Fine-mapping with SusieR
 
-    2.  Compute LD matrices from the reference panel
+        1.  Extract LD blocks with promising SNPs to perform fine-mapping
 
-    3.  Conduct diagnostics and fine-mapping with susieR
+        2.  Compute LD matrices from the reference panel
 
-    4.  Quality control of fine-mapping results
+        3.  Conduct diagnostics and fine-mapping with susieR
 
-    5.  Create final fine-mapping results
+        4.  Quality control of fine-mapping results
 
-    6.  Benchmarking epigenetic combinations
+        5.  Create final fine-mapping results
+
+        6.  Benchmarking epigenetic combinations
+
+3.  Gene prioritization with multiCOGS
 
 ------------------------------------------------------------------------
 
 ## Data requirements
 
-To run epi-multiCOGS you need three types of input data:
+Running epi-multiCOGS requires three types of input data:
 
-1.  **Functional annotations:** the set of genomic regions with the functional annotations you want to use to perform the epigenetic fine-mapping.
-    This can consist on enhancer regions, promoter regions, coding sequence, etc. of your cell type of interest.
+- **Functional annotations:** Genomic regions containing the functional annotations used for functional fine-mapping.
+  These may include enhancer regions, promoter regions, coding sequences, or other regulatory elements relevant to the cell types of interest.
 
-    They must be provided in BED format (chr, start, end).
+  Functional annotations must be provided in BED format, with at least three columns: chromosome (chr), start position (start), and end position (end).
 
-2.  **GWAS summary statistics:** it has to include, for your set of SNPs: SNP ID, chr, BP, p-value, z-score.
-    Also need to know the population in which the GWAS is performed and the number of cases and controls.
+- **GWAS summary statistics:** Summary statistics for the set of SNPs included in the analysis.
+  The data must include minimum the following information for each SNP:
+
+  - SNP identifier (SNP ID)
+
+  - Chromosome (chr)
+
+  - Base-pair position (BP)
+
+  - P-value (P)
+
+  - Z-score (Z)
+
+    In addition, the GWAS population must be specified, along with the number of cases and controls.
+
+- **Matched-ancestry reference panel:** A genotype reference panel matched to the ancestry of the GWAS population.
+  Because the analysis uses GWAS summary statistics rather than individual-level genotype data, a reference panel is required for several steps of the pipeline, including the computation of linkage disequilibrium (LD) matrices.
+  It can be downloaded from public resources and processed as described below.
+
+------------------------------------------------------------------------
 
 ## 1. Data preparation
 
@@ -120,9 +165,11 @@ for i in {1..22}; do plink --bfile /gpfs/projects/bsc08/shared_projects/IJC_3Dch
 
 ### 1.2 Approximate independent LD blocks
 
-We used the independent LD blocks computed for european population based on GRCh38 1000 Genomes data.
+We used the independent LD blocks computed for European population based on GRCh38 1000 Genomes data.
 They can be downloaded from [here](https://github.com/jmacdon/LDblocks_GRCh38).
 This corresponds to a total 1361 LDblocks in chromosomes 1 to 22, with an average size of approx 2Mb (minimum: 17kb; max: 28Mb).
+
+------------------------------------------------------------------------
 
 ## 2. Compute prior causal probabilities using PolyFUN
 
@@ -137,15 +184,15 @@ We evaluated 16 different annotation combination.
 
 Briefly, the tested annotations included:
 
--   Active promoters and enhancers (active, primed and poised) from the corresponding cell of origin (COO), either overlapping or not overlapping ATAC-seq peaks.
+- Active promoters and enhancers (active, primed and poised) from the corresponding cell of origin (COO), either overlapping or not overlapping ATAC-seq peaks.
 
--   Open chromatin regions (ATAC-seq peaks) in the COO.
+- Open chromatin regions (ATAC-seq peaks) in the COO.
 
--   Open active enhancers from non-COO B cells that do not overlap COO enhancers (active, primed or poised).
+- Open active enhancers from non-COO B cells that do not overlap COO enhancers (active, primed or poised).
 
--   Promoter-interacting regions (PIRs).
+- Promoter-interacting regions (PIRs).
 
--   Coding sequence: CDS regions defined in Ensembl release 104.
+- Coding sequence: CDS regions defined in Ensembl release 104.
 
 *TABLE xxxx*
 
@@ -239,13 +286,13 @@ In particular, it is critical that allele columns are correctly defined: A1 corr
 
 The GWAS summary statistics are matched against the 1000 Genomes EUR reference panel:
 
--   Variants absent in the reference panel are excluded.
+- Variants absent in the reference panel are excluded.
 
--   Allele frequency (AF) information is added.
+- Allele frequency (AF) information is added.
 
--   Alleles are harmonized.
-    For this, we used the function `bigsnpr::snp_match()`, that detects and resolves alleles mismatches between the GWAS summary statistics and the reference panel.
-    Specifically, we matched variants using their positional identifiers (`chr_position`).
+- Alleles are harmonized.
+  For this, we used the function `bigsnpr::snp_match()`, that detects and resolves alleles mismatches between the GWAS summary statistics and the reference panel.
+  Specifically, we matched variants using their positional identifiers (`chr_position`).
 
 #### Strand flips and ambiguous SNPs
 
@@ -286,15 +333,15 @@ This step requires to use three scripts:
 
     The report (`Report_alltraits_summary_reference_matching.tsv`) includes, for different p-value thresholds:
 
-    -   Total number of variants in the GWAS.
+    - Total number of variants in the GWAS.
 
-    -   Number of variants present in the reference panel.
+    - Number of variants present in the reference panel.
 
-    -   Number of reversed variants (allele swap).
+    - Number of reversed variants (allele swap).
 
-    -   Number of strand-flipped variants.
+    - Number of strand-flipped variants.
 
-    -   Number of ambiguous SNPs (A/T and C/G).
+    - Number of ambiguous SNPs (A/T and C/G).
 
     In addition, the report also summarizes the number of variants that would be excluded under different minor allele frequency thresholds (0, 0.01 and 0.05).
     SNPs with very low MAF can lead to unreliable results.
@@ -409,9 +456,9 @@ The script:
 
 For each selected LD block, the script generates:
 
--   **SNPs_list/LDblockID_snps.txt**: list of positional SNP identifiers that would be used to compute LD matrices.
+- **SNPs_list/LDblockID_snps.txt**: list of positional SNP identifiers that would be used to compute LD matrices.
 
--   **PLINK Commands and SLURM jobs files to compute LD matrices:** this is explained more in detail in the next step.
+- **PLINK Commands and SLURM jobs files to compute LD matrices:** this is explained more in detail in the next step.
 
 ### 3.2 Compute LD matrices
 
@@ -464,17 +511,17 @@ susie_rss(z = ss$Z,
 
 Where:
 
--   z = GWAS Z-scores
+- z = GWAS Z-scores
 
--   R = LD correlation matrix
+- R = LD correlation matrix
 
--   n = GWAS sample size
+- n = GWAS sample size
 
--   L = maximum number of causal variants allowed within LD block.
+- L = maximum number of causal variants allowed within LD block.
 
--   max_iter = maximum number of IBSS iterations
+- max_iter = maximum number of IBSS iterations
 
--   coverage = desired credible set coverage
+- coverage = desired credible set coverage
 
 We set the max_iter = 100 and the coverage to 0.90 for all the fine-mapping tests.
 Regarding the maximum number of causal variants, we ran twice: assuming 1 (L=1) or maximum 5 (L=5) causal variants.
@@ -510,9 +557,9 @@ Standard fine-mapping (without functional priors) and diagnostic analyses were p
 
 This script processes one LD block at a time and automatically runs SuSiE-R assuming either:
 
--   **L=1** causal variants
+- **L=1** causal variants
 
--   **L=5** causal variants
+- **L=5** causal variants
 
 It can also generates diagnostic plots and compute lambda statistics.
 
@@ -520,23 +567,23 @@ It can also generates diagnostic plots and compute lambda statistics.
 
 It has the following parameters:
 
--   **-t, --trait** Trait ID
+- **-t, --trait** Trait ID
 
--   **-b, --block** LD block ID
+- **-b, --block** LD block ID
 
--   **-c, --cs** CS threshold
+- **-c, --cs** CS threshold
 
--   **-i, --iter** Max num iterations
+- **-i, --iter** Max num iterations
 
--   **-d, --dplots** Flag specifying whether to generate diagnostic plots (observed vs. expected Z-score).
+- **-d, --dplots** Flag specifying whether to generate diagnostic plots (observed vs. expected Z-score).
 
--   **-l, --lambda** Flag specifying whether to compute lambda values.
+- **-l, --lambda** Flag specifying whether to compute lambda values.
 
--   **-s, --savedata** Flag specifying whether to save LD blocks clean data.
+- **-s, --savedata** Flag specifying whether to save LD blocks clean data.
 
--   **--savefinemapping** Flag specifying whether to save finemapping results.
+- **--savefinemapping** Flag specifying whether to save finemapping results.
 
--   **-p, --ppiplots** Flag specifying whether to save posterior probabilities plots.
+- **-p, --ppiplots** Flag specifying whether to save posterior probabilities plots.
 
 Specifically, we ran for each LD block in each GWAS dataset the command for the diagnostic plots and the standard fine-mapping, setting up a maximum of 100 IBSS algorithm iterations and a CS coverage of 0.90.
 
@@ -573,19 +620,19 @@ These priors were supplied to `susie_rss()` throught the `prior_weights` argumen
 
 For this, we used the script `03C_SusieR_run_susier_polyfun.R`, which has the following arguments: *FIX THIS PART AFTER CLEANING THE SCRIPT*
 
--   **-t, --trait** Trait ID
+- **-t, --trait** Trait ID
 
--   **-c, --celltype** Celltype
+- **-c, --celltype** Celltype
 
--   **--test** PolyFun test name
+- **--test** PolyFun test name
 
--   **--cs** CS threshold
+- **--cs** CS threshold
 
--   **-i, --iter** Max num iterations
+- **-i, --iter** Max num iterations
 
--   **-s, --savefinemapping** Flag specifying whether to save finemapping results.
+- **-s, --savefinemapping** Flag specifying whether to save finemapping results.
 
--   **-p, --ppiplots** Flag specifying whether to save posterior probabilities plots.
+- **-p, --ppiplots** Flag specifying whether to save posterior probabilities plots.
 
 Unlike the script 03B, this script is executed per trait and annotation combination analysed by PolyFun, rather than per LD block.
 Again, it also runs automatically for both L=1 and L=5 and stores results separetely.
@@ -613,38 +660,38 @@ Again, the helper script `03A_SusieR_run_susier_prepare_commands.R` was used to 
 
 #### Output *PENDING*
 
--   **results/\<trait\>/finemapping/CV5\_\<epitest\>\_iter_100_cov90/\<LDblockID\>\_susieR_cs90_L5.tsv**: which contain the fine-mapping results for
+- **results/\<trait\>/finemapping/CV5\_\<epitest\>\_iter_100_cov90/\<LDblockID\>\_susieR_cs90_L5.tsv**: which contain the fine-mapping results for
 
--   plots....
+- plots....
 
--   ...
+- ...
 
 ### 3.4 Fine-mapping QC
 
 The diagnostics and fine-mapping outpus should be evaluated with the scripts:
 
--   `04A_Check_susier_lambda.R`
+- `04A_Check_susier_lambda.R`
 
--   `04B_Check_bad_finemapping_MN5.R`
+- `04B_Check_bad_finemapping_MN5.R`
 
--   `04C_Check_finemapping_merge_reports.R`
+- `04C_Check_finemapping_merge_reports.R`
 
 #### **Output**
 
 These scripts generate two main QC reports:
 
--   **trait_epitest_LDblocks_selection.tsv:** Contains QC results for each LD block within each trait and fine-mapping run.
-    This file is used as input for downstream filtering and analysis.
+- **trait_epitest_LDblocks_selection.tsv:** Contains QC results for each LD block within each trait and fine-mapping run.
+  This file is used as input for downstream filtering and analysis.
 
--   **LDblocks_finemapping_QC_summary_alltraits.tsv:** Summarizes, across all traits and epigenetic tests, how many LD blocks pass each QC filter.
-    Results are stratified by GWAS p-value thresholds.
+- **LDblocks_finemapping_QC_summary_alltraits.tsv:** Summarizes, across all traits and epigenetic tests, how many LD blocks pass each QC filter.
+  Results are stratified by GWAS p-value thresholds.
 
-    | Trait | pval_group | total_LDblocks | Lambda \> 0.4 | No converge | Not CS | CV5_has_CS | Good CV5 fine-mapping | Bad CV5 fine-mapping |
-    |--------|--------|--------|--------|--------|--------|--------|--------|--------|
-    | LYM | \<5e-8 | 3 | 1 | 0 | 0 | 2 | 2 | 0 |
-    | LYM | 1e-6 - 5e-8 | 12 | 0 | 0 | 7 | 5 | 4 | 1 |
-    | LYM | \>1e-6 | 102 | 2 | 0 | 98 | 2 | 2 | 0 |
-    | LYM | Total | 115 | 2 | 0 | 105 | 8 | 8 | 0 |
+  | Trait | pval_group | total_LDblocks | Lambda \> 0.4 | No converge | Not CS | CV5_has_CS | Good CV5 fine-mapping | Bad CV5 fine-mapping |
+  |--------|--------|--------|--------|--------|--------|--------|--------|--------|
+  | LYM | \<5e-8 | 3 | 1 | 0 | 0 | 2 | 2 | 0 |
+  | LYM | 1e-6 - 5e-8 | 12 | 0 | 0 | 7 | 5 | 4 | 1 |
+  | LYM | \>1e-6 | 102 | 2 | 0 | 98 | 2 | 2 | 0 |
+  | LYM | Total | 115 | 2 | 0 | 105 | 8 | 8 | 0 |
 
 #### QC classification of LD blocks
 
@@ -666,21 +713,21 @@ A part from using the QC reports, it is highly recommended a visual inspection o
 
 **`04A_Check_susier_lambda.R`**
 
--   Read lambda values for all LD blocks and traits and save in a report file.
+- Read lambda values for all LD blocks and traits and save in a report file.
 
--   Requires outputs from `03B` (`--diagnostics` step).
+- Requires outputs from `03B` (`--diagnostics` step).
 
--   Generates the commands to launch 04B.
+- Generates the commands to launch 04B.
 
 **`04B_Check_bad_finemapping_MN5.R`**
 
--   Runs independently for each trait and fine-mapping test.
+- Runs independently for each trait and fine-mapping test.
 
--   Uses lambda report generated by `04A` and performs QC on epigenetic fine-mapping results (outputs from `03C`).
+- Uses lambda report generated by `04A` and performs QC on epigenetic fine-mapping results (outputs from `03C`).
 
 **`04C_Check_finemapping_merge_reports.R`**
 
--   Merge all tests and all traits fine-mapping QC reports into a single summary.
+- Merge all tests and all traits fine-mapping QC reports into a single summary.
 
 ### 3.5 Generate final fine-mapping results
 
@@ -690,12 +737,12 @@ Final fine-mapping results are generated by integrating QC outputs with the fine
 
 Specifically, we generate two types of ouput files:
 
--   `summarise_finemapping/*.tsv`: Final fine-mapping results based on SuSiE for LD blocks passing QC.
-    It does not include ABF results.
-    Used to evaluate fine-mapping performance.
+- `summarise_finemapping/*.tsv`: final fine-mapping results based on SuSiE for LD blocks passing QC.
+  It does not include ABF results.
+  Used to evaluate fine-mapping performance.
 
--   `mCOGS_input/*_gwas_4mCOGS.tsv`: full genome-wide summary statistics fincluding all LD blocks (SuSiE + ABF).
-    Formatted for input into the mCOGS pipeline.
+- `mCOGS_input/*_gwas_4mCOGS.tsv`: full genome-wide summary statistics including all LD blocks (SuSiE + ABF).
+  Formatted for input to the multiCOGS pipeline.
 
 **Decision rules for final PIP selection *PENDING***
 
@@ -731,13 +778,13 @@ It also creates
 
 These generate a report and plots summarizing, for each functional annotation combination tested:
 
--   Number of LD blocks with credible sets
+- Number of LD blocks with credible sets
 
--   Number of credible sets
+- Number of credible sets
 
--   Average size of credible sets
+- Average size of credible sets
 
--   Number of high-confidence variants (PIP \> 0.5)
+- Number of high-confidence variants (PIP \> 0.5)
 
 Commands generated with the helper script: `06.0_Benchmarking_epitests_generate_commands.R`
 
@@ -747,11 +794,11 @@ Commands generated with the helper script: `06.0_Benchmarking_epitests_generate_
 
 This section will include:
 
--   Compare number of SNPs by PIP: standard vs. epigenetics
+- Compare number of SNPs by PIP: standard vs. epigenetics
 
--   Compare CS size: standard vs. epigenetics
+- Compare CS size: standard vs. epigenetics
 
--   Overlap with RE / chromHMM from Roadmap
+- Overlap with RE / chromHMM from Roadmap
 
 ### 4.2 Analysis of disrupted TF motif
 
@@ -759,9 +806,9 @@ This will include how to run motifbreakR in local, compute TF score and generate
 
 ### 4.3 B-ALL GWAS: comparison with public data
 
--   Processing of B-ALL data
+- Processing of B-ALL data
 
--   Comparison with SNPs
+- Comparison with SNPs
 
--   Cell lines?
-    analysis and comparison
+- Cell lines?
+  analysis and comparison
