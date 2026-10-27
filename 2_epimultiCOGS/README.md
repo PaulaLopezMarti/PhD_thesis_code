@@ -788,27 +788,7 @@ These generate a report and plots summarizing, for each functional annotation co
 
 Commands generated with the helper script: `06.0_Benchmarking_epitests_generate_commands.R`
 
-## 4. Fine-mapping analysis
+## 4. MultiCOGS
 
-### 4.1 Fine-mapping evaluation: standard vs. epigenetic fine-mapping
-
-This section will include:
-
-- Compare number of SNPs by PIP: standard vs. epigenetics
-
-- Compare CS size: standard vs. epigenetics
-
-- Overlap with RE / chromHMM from Roadmap
-
-### 4.2 Analysis of disrupted TF motif
-
-This will include how to run motifbreakR in local, compute TF score and generate the plots presentend in the paper/thesis.
-
-### 4.3 B-ALL GWAS: comparison with public data
-
-- Processing of B-ALL data
-
-- Comparison with SNPs
-
-- Cell lines?
-  analysis and comparison
+The most recent published version of multiCOGS is available at [multiCOGS Github](https://github.com/FunctionalGeneControl/multiCOGS).
+A detailed explanation of how to run multiCOGS is provided in their Github, please see their repo for a deeper explanation*.* For the thesis, I used the 2021 version with slight modifications adapted to run on the MareNostrum HPC environment, which are here described.
